@@ -2,9 +2,10 @@
 /node_modules
 
 # production
-dist/
+/dist
 
 # misc
 .DS_Store
 .env
 *.log
+"dist/" 
