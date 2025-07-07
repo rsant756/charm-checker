@@ -1,6 +1,7 @@
 {
   "name": "vite-charm-checker",
   "version": "1.0.0",
+  "homepage": "https://rsant756.github.io/charm-checker",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,6 +16,7 @@
     "react-router-dom": "^7.6.3"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
     "autoprefixer": "^10.4.14",
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.21",
