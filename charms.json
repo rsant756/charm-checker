@@ -1,1807 +1,1807 @@
 [
   {
-    "data-id":1,
-    "data-name":"攻撃珠【1】",
-    "data-sort2":3
+    "data-id": 1,
+    "data-name": "攻撃珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":2,
-    "data-name":"攻撃珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 2,
+    "data-name": "攻撃珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":3,
-    "data-name":"攻撃珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 3,
+    "data-name": "攻撃珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":4,
-    "data-name":"逆上珠【2】",
-    "data-sort2":4
+    "data-id": 4,
+    "data-name": "逆上珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":5,
-    "data-name":"反攻珠【3】",
-    "data-sort2":5
+    "data-id": 5,
+    "data-name": "反攻珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":6,
-    "data-name":"守勢珠【1】",
-    "data-sort2":3
+    "data-id": 6,
+    "data-name": "守勢珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":7,
-    "data-name":"守勢珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 7,
+    "data-name": "守勢珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":8,
-    "data-name":"守勢珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 8,
+    "data-name": "守勢珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":9,
-    "data-name":"守勢・火炎珠【3】",
-    "data-sort2":7
+    "data-id": 9,
+    "data-name": "守勢・火炎珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":10,
-    "data-name":"守勢・流水珠【3】",
-    "data-sort2":7
+    "data-id": 10,
+    "data-name": "守勢・流水珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":11,
-    "data-name":"守勢・雷光珠【3】",
-    "data-sort2":7
+    "data-id": 11,
+    "data-name": "守勢・雷光珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":12,
-    "data-name":"守勢・氷結珠【3】",
-    "data-sort2":7
+    "data-id": 12,
+    "data-name": "守勢・氷結珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":13,
-    "data-name":"守勢・破龍珠【3】",
-    "data-sort2":7
+    "data-id": 13,
+    "data-name": "守勢・破龍珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":14,
-    "data-name":"守勢・匠珠【3】",
-    "data-sort2":7
+    "data-id": 14,
+    "data-name": "守勢・匠珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":15,
-    "data-name":"守勢・鉄壁珠【3】",
-    "data-sort2":7
+    "data-id": 15,
+    "data-name": "守勢・鉄壁珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":16,
-    "data-name":"無傷珠【2】",
-    "data-sort2":4
+    "data-id": 16,
+    "data-name": "無傷珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":17,
-    "data-name":"逆襲珠【2】",
-    "data-sort2":4
+    "data-id": 17,
+    "data-name": "逆襲珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":18,
-    "data-name":"達人珠【1】",
-    "data-sort2":3
+    "data-id": 18,
+    "data-name": "達人珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":19,
-    "data-name":"達人珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 19,
+    "data-name": "達人珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":20,
-    "data-name":"達人珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 20,
+    "data-name": "達人珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":21,
-    "data-name":"超心珠【1】",
-    "data-sort2":3
+    "data-id": 21,
+    "data-name": "超心珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":22,
-    "data-name":"超心珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 22,
+    "data-name": "超心珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":23,
-    "data-name":"超心珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 23,
+    "data-name": "超心珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":24,
-    "data-name":"痛撃珠【3】",
-    "data-sort2":5
+    "data-id": 24,
+    "data-name": "痛撃珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":25,
-    "data-name":"抜刀珠【1】",
-    "data-sort2":3
+    "data-id": 25,
+    "data-name": "抜刀珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":26,
-    "data-name":"抜刀珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 26,
+    "data-name": "抜刀珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":27,
-    "data-name":"抜刀珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 27,
+    "data-name": "抜刀珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":28,
-    "data-name":"渾身珠【2】",
-    "data-sort2":4
+    "data-id": 28,
+    "data-name": "渾身珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":29,
-    "data-name":"火炎珠【1】",
-    "data-sort2":3
+    "data-id": 29,
+    "data-name": "火炎珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":30,
-    "data-name":"火炎珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 30,
+    "data-name": "火炎珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":31,
-    "data-name":"火炎珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 31,
+    "data-name": "火炎珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":32,
-    "data-name":"火炎・守勢珠【3】",
-    "data-sort2":6
+    "data-id": 32,
+    "data-name": "火炎・守勢珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":33,
-    "data-name":"火炎・属会珠【3】",
-    "data-sort2":6
+    "data-id": 33,
+    "data-name": "火炎・属会珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":34,
-    "data-name":"火炎・匠珠【3】",
-    "data-sort2":6
+    "data-id": 34,
+    "data-name": "火炎・匠珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":35,
-    "data-name":"火炎・業物珠【3】",
-    "data-sort2":6
+    "data-id": 35,
+    "data-name": "火炎・業物珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":36,
-    "data-name":"火炎・射法珠【3】",
-    "data-sort2":6
+    "data-id": 36,
+    "data-name": "火炎・射法珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":37,
-    "data-name":"火炎・初弾珠【3】",
-    "data-sort2":6
+    "data-id": 37,
+    "data-name": "火炎・初弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":38,
-    "data-name":"火炎・積弾珠【3】",
-    "data-sort2":6
+    "data-id": 38,
+    "data-name": "火炎・積弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":39,
-    "data-name":"火炎・集中珠【3】",
-    "data-sort2":6
+    "data-id": 39,
+    "data-name": "火炎・集中珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":40,
-    "data-name":"火炎・昂揚珠【3】",
-    "data-sort2":6
+    "data-id": 40,
+    "data-name": "火炎・昂揚珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":41,
-    "data-name":"火炎・KO珠【3】",
-    "data-sort2":6
+    "data-id": 41,
+    "data-name": "火炎・KO珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":42,
-    "data-name":"火炎・速変珠【3】",
-    "data-sort2":6
+    "data-id": 42,
+    "data-name": "火炎・速変珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":43,
-    "data-name":"火炎・鉄壁珠【3】",
-    "data-sort2":6
+    "data-id": 43,
+    "data-name": "火炎・鉄壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":44,
-    "data-name":"火炎・強壁珠【3】",
-    "data-sort2":6
+    "data-id": 44,
+    "data-name": "火炎・強壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":45,
-    "data-name":"流水珠【1】",
-    "data-sort2":3
+    "data-id": 45,
+    "data-name": "流水珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":46,
-    "data-name":"流水珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 46,
+    "data-name": "流水珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":47,
-    "data-name":"流水珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 47,
+    "data-name": "流水珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":48,
-    "data-name":"流水・守勢珠【3】",
-    "data-sort2":6
+    "data-id": 48,
+    "data-name": "流水・守勢珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":49,
-    "data-name":"流水・属会珠【3】",
-    "data-sort2":6
+    "data-id": 49,
+    "data-name": "流水・属会珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":50,
-    "data-name":"流水・匠珠【3】",
-    "data-sort2":6
+    "data-id": 50,
+    "data-name": "流水・匠珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":51,
-    "data-name":"流水・業物珠【3】",
-    "data-sort2":6
+    "data-id": 51,
+    "data-name": "流水・業物珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":52,
-    "data-name":"流水・射法珠【3】",
-    "data-sort2":6
+    "data-id": 52,
+    "data-name": "流水・射法珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":53,
-    "data-name":"流水・初弾珠【3】",
-    "data-sort2":6
+    "data-id": 53,
+    "data-name": "流水・初弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":54,
-    "data-name":"流水・積弾珠【3】",
-    "data-sort2":6
+    "data-id": 54,
+    "data-name": "流水・積弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":55,
-    "data-name":"流水・集中珠【3】",
-    "data-sort2":6
+    "data-id": 55,
+    "data-name": "流水・集中珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":56,
-    "data-name":"流水・昂揚珠【3】",
-    "data-sort2":6
+    "data-id": 56,
+    "data-name": "流水・昂揚珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":57,
-    "data-name":"流水・KO珠【3】",
-    "data-sort2":6
+    "data-id": 57,
+    "data-name": "流水・KO珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":58,
-    "data-name":"流水・速変珠【3】",
-    "data-sort2":6
+    "data-id": 58,
+    "data-name": "流水・速変珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":59,
-    "data-name":"流水・鉄壁珠【3】",
-    "data-sort2":6
+    "data-id": 59,
+    "data-name": "流水・鉄壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":60,
-    "data-name":"流水・強壁珠【3】",
-    "data-sort2":6
+    "data-id": 60,
+    "data-name": "流水・強壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":61,
-    "data-name":"雷光珠【1】",
-    "data-sort2":3
+    "data-id": 61,
+    "data-name": "雷光珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":62,
-    "data-name":"雷光珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 62,
+    "data-name": "雷光珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":63,
-    "data-name":"雷光珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 63,
+    "data-name": "雷光珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":64,
-    "data-name":"雷光・守勢珠【3】",
-    "data-sort2":6
+    "data-id": 64,
+    "data-name": "雷光・守勢珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":65,
-    "data-name":"雷光・属会珠【3】",
-    "data-sort2":6
+    "data-id": 65,
+    "data-name": "雷光・属会珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":66,
-    "data-name":"雷光・匠珠【3】",
-    "data-sort2":6
+    "data-id": 66,
+    "data-name": "雷光・匠珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":67,
-    "data-name":"雷光・業物珠【3】",
-    "data-sort2":6
+    "data-id": 67,
+    "data-name": "雷光・業物珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":68,
-    "data-name":"雷光・射法珠【3】",
-    "data-sort2":6
+    "data-id": 68,
+    "data-name": "雷光・射法珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":69,
-    "data-name":"雷光・初弾珠【3】",
-    "data-sort2":6
+    "data-id": 69,
+    "data-name": "雷光・初弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":70,
-    "data-name":"雷光・積弾珠【3】",
-    "data-sort2":6
+    "data-id": 70,
+    "data-name": "雷光・積弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":71,
-    "data-name":"雷光・集中珠【3】",
-    "data-sort2":6
+    "data-id": 71,
+    "data-name": "雷光・集中珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":72,
-    "data-name":"雷光・昂揚珠【3】",
-    "data-sort2":6
+    "data-id": 72,
+    "data-name": "雷光・昂揚珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":73,
-    "data-name":"雷光・KO珠【3】",
-    "data-sort2":6
+    "data-id": 73,
+    "data-name": "雷光・KO珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":74,
-    "data-name":"雷光・速変珠【3】",
-    "data-sort2":6
+    "data-id": 74,
+    "data-name": "雷光・速変珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":75,
-    "data-name":"雷光・鉄壁珠【3】",
-    "data-sort2":6
+    "data-id": 75,
+    "data-name": "雷光・鉄壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":76,
-    "data-name":"雷光・強壁珠【3】",
-    "data-sort2":6
+    "data-id": 76,
+    "data-name": "雷光・強壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":77,
-    "data-name":"氷結珠【1】",
-    "data-sort2":3
+    "data-id": 77,
+    "data-name": "氷結珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":78,
-    "data-name":"氷結珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 78,
+    "data-name": "氷結珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":79,
-    "data-name":"氷結珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 79,
+    "data-name": "氷結珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":80,
-    "data-name":"氷結・守勢珠【3】",
-    "data-sort2":6
+    "data-id": 80,
+    "data-name": "氷結・守勢珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":81,
-    "data-name":"氷結・属会珠【3】",
-    "data-sort2":6
+    "data-id": 81,
+    "data-name": "氷結・属会珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":82,
-    "data-name":"氷結・匠珠【3】",
-    "data-sort2":6
+    "data-id": 82,
+    "data-name": "氷結・匠珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":83,
-    "data-name":"氷結・業物珠【3】",
-    "data-sort2":6
+    "data-id": 83,
+    "data-name": "氷結・業物珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":84,
-    "data-name":"氷結・射法珠【3】",
-    "data-sort2":6
+    "data-id": 84,
+    "data-name": "氷結・射法珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":85,
-    "data-name":"氷結・初弾珠【3】",
-    "data-sort2":6
+    "data-id": 85,
+    "data-name": "氷結・初弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":86,
-    "data-name":"氷結・積弾珠【3】",
-    "data-sort2":6
+    "data-id": 86,
+    "data-name": "氷結・積弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":87,
-    "data-name":"氷結・集中珠【3】",
-    "data-sort2":6
+    "data-id": 87,
+    "data-name": "氷結・集中珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":88,
-    "data-name":"氷結・昂揚珠【3】",
-    "data-sort2":6
+    "data-id": 88,
+    "data-name": "氷結・昂揚珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":89,
-    "data-name":"氷結・KO珠【3】",
-    "data-sort2":6
+    "data-id": 89,
+    "data-name": "氷結・KO珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":90,
-    "data-name":"氷結・速変珠【3】",
-    "data-sort2":6
+    "data-id": 90,
+    "data-name": "氷結・速変珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":91,
-    "data-name":"氷結・鉄壁珠【3】",
-    "data-sort2":6
+    "data-id": 91,
+    "data-name": "氷結・鉄壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":92,
-    "data-name":"氷結・強壁珠【3】",
-    "data-sort2":6
+    "data-id": 92,
+    "data-name": "氷結・強壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":93,
-    "data-name":"破龍珠【1】",
-    "data-sort2":3
+    "data-id": 93,
+    "data-name": "破龍珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":94,
-    "data-name":"破龍珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 94,
+    "data-name": "破龍珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":95,
-    "data-name":"破龍珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 95,
+    "data-name": "破龍珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":96,
-    "data-name":"破龍・守勢珠【3】",
-    "data-sort2":6
+    "data-id": 96,
+    "data-name": "破龍・守勢珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":97,
-    "data-name":"破龍・属会珠【3】",
-    "data-sort2":6
+    "data-id": 97,
+    "data-name": "破龍・属会珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":98,
-    "data-name":"破龍・匠珠【3】",
-    "data-sort2":6
+    "data-id": 98,
+    "data-name": "破龍・匠珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":99,
-    "data-name":"破龍・業物珠【3】",
-    "data-sort2":6
+    "data-id": 99,
+    "data-name": "破龍・業物珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":100,
-    "data-name":"破龍・射法珠【3】",
-    "data-sort2":6
+    "data-id": 100,
+    "data-name": "破龍・射法珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":101,
-    "data-name":"破龍・初弾珠【3】",
-    "data-sort2":6
+    "data-id": 101,
+    "data-name": "破龍・初弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":102,
-    "data-name":"破龍・積弾珠【3】",
-    "data-sort2":6
+    "data-id": 102,
+    "data-name": "破龍・積弾珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":103,
-    "data-name":"破龍・集中珠【3】",
-    "data-sort2":6
+    "data-id": 103,
+    "data-name": "破龍・集中珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":104,
-    "data-name":"破龍・昂揚珠【3】",
-    "data-sort2":6
+    "data-id": 104,
+    "data-name": "破龍・昂揚珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":105,
-    "data-name":"破龍・KO珠【3】",
-    "data-sort2":6
+    "data-id": 105,
+    "data-name": "破龍・KO珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":106,
-    "data-name":"破龍・速変珠【3】",
-    "data-sort2":6
+    "data-id": 106,
+    "data-name": "破龍・速変珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":107,
-    "data-name":"破龍・鉄壁珠【3】",
-    "data-sort2":6
+    "data-id": 107,
+    "data-name": "破龍・鉄壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":108,
-    "data-name":"破龍・強壁珠【3】",
-    "data-sort2":6
+    "data-id": 108,
+    "data-name": "破龍・強壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":109,
-    "data-name":"毒珠【1】",
-    "data-sort2":3
+    "data-id": 109,
+    "data-name": "毒珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":110,
-    "data-name":"毒珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 110,
+    "data-name": "毒珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":111,
-    "data-name":"毒珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 111,
+    "data-name": "毒珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":112,
-    "data-name":"麻痺珠【1】",
-    "data-sort2":3
+    "data-id": 112,
+    "data-name": "麻痺珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":113,
-    "data-name":"麻痺珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 113,
+    "data-name": "麻痺珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":114,
-    "data-name":"麻痺珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 114,
+    "data-name": "麻痺珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":115,
-    "data-name":"睡眠珠【1】",
-    "data-sort2":3
+    "data-id": 115,
+    "data-name": "睡眠珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":116,
-    "data-name":"睡眠珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 116,
+    "data-name": "睡眠珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":117,
-    "data-name":"睡眠珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 117,
+    "data-name": "睡眠珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":118,
-    "data-name":"爆破珠【1】",
-    "data-sort2":3
+    "data-id": 118,
+    "data-name": "爆破珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":119,
-    "data-name":"爆破珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 119,
+    "data-name": "爆破珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":120,
-    "data-name":"爆破珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 120,
+    "data-name": "爆破珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":121,
-    "data-name":"属会珠【1】",
-    "data-sort2":3
+    "data-id": 121,
+    "data-name": "属会珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":122,
-    "data-name":"属会珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 122,
+    "data-name": "属会珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":123,
-    "data-name":"属会珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 123,
+    "data-name": "属会珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":124,
-    "data-name":"属会・火炎珠【3】",
-    "data-sort2":7
+    "data-id": 124,
+    "data-name": "属会・火炎珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":125,
-    "data-name":"属会・流水珠【3】",
-    "data-sort2":7
+    "data-id": 125,
+    "data-name": "属会・流水珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":126,
-    "data-name":"属会・氷結珠【3】",
-    "data-sort2":7
+    "data-id": 126,
+    "data-name": "属会・氷結珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":127,
-    "data-name":"属会・雷光珠【3】",
-    "data-sort2":7
+    "data-id": 127,
+    "data-name": "属会・雷光珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":128,
-    "data-name":"属会・破龍珠【3】",
-    "data-sort2":7
+    "data-id": 128,
+    "data-name": "属会・破龍珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":129,
-    "data-name":"属会・匠珠【3】",
-    "data-sort2":5
+    "data-id": 129,
+    "data-name": "属会・匠珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":130,
-    "data-name":"属会・射法珠【3】",
-    "data-sort2":5
+    "data-id": 130,
+    "data-name": "属会・射法珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":131,
-    "data-name":"属会・KO珠【3】",
-    "data-sort2":5
+    "data-id": 131,
+    "data-name": "属会・KO珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":132,
-    "data-name":"属会・鉄壁珠【3】",
-    "data-sort2":5
+    "data-id": 132,
+    "data-name": "属会・鉄壁珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":133,
-    "data-name":"特会珠【1】",
-    "data-sort2":3
+    "data-id": 133,
+    "data-name": "特会珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":134,
-    "data-name":"特会珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 134,
+    "data-name": "特会珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":135,
-    "data-name":"特会珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 135,
+    "data-name": "特会珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":136,
-    "data-name":"特会・匠珠【3】",
-    "data-sort2":6
+    "data-id": 136,
+    "data-name": "特会・匠珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":137,
-    "data-name":"特会・射法珠【3】",
-    "data-sort2":6
+    "data-id": 137,
+    "data-name": "特会・射法珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":138,
-    "data-name":"特会・KO珠【3】",
-    "data-sort2":6
+    "data-id": 138,
+    "data-name": "特会・KO珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":139,
-    "data-name":"特会・鉄壁珠【3】",
-    "data-sort2":6
+    "data-id": 139,
+    "data-name": "特会・鉄壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":140,
-    "data-name":"溜幅珠【1】",
-    "data-sort2":3
+    "data-id": 140,
+    "data-name": "溜幅珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":141,
-    "data-name":"溜幅珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 141,
+    "data-name": "溜幅珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":142,
-    "data-name":"溜幅珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 142,
+    "data-name": "溜幅珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":143,
-    "data-name":"溜幅・匠珠【3】",
-    "data-sort2":7
+    "data-id": 143,
+    "data-name": "溜幅・匠珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":144,
-    "data-name":"溜幅・KO珠【3】",
-    "data-sort2":7
+    "data-id": 144,
+    "data-name": "溜幅・KO珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":145,
-    "data-name":"匠珠【1】",
-    "data-sort2":3
+    "data-id": 145,
+    "data-name": "匠珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":146,
-    "data-name":"匠珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 146,
+    "data-name": "匠珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":147,
-    "data-name":"匠珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 147,
+    "data-name": "匠珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":148,
-    "data-name":"業物珠【1】",
-    "data-sort2":3
+    "data-id": 148,
+    "data-name": "業物珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":149,
-    "data-name":"業物珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 149,
+    "data-name": "業物珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":150,
-    "data-name":"業物珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 150,
+    "data-name": "業物珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":151,
-    "data-name":"業物・火炎珠【3】",
-    "data-sort2":7
+    "data-id": 151,
+    "data-name": "業物・火炎珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":152,
-    "data-name":"業物・流水珠【3】",
-    "data-sort2":7
+    "data-id": 152,
+    "data-name": "業物・流水珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":153,
-    "data-name":"業物・氷結珠【3】",
-    "data-sort2":7
+    "data-id": 153,
+    "data-name": "業物・氷結珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":154,
-    "data-name":"業物・雷光珠【3】",
-    "data-sort2":7
+    "data-id": 154,
+    "data-name": "業物・雷光珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":155,
-    "data-name":"業物・破龍珠【3】",
-    "data-sort2":7
+    "data-id": 155,
+    "data-name": "業物・破龍珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":156,
-    "data-name":"業物・匠珠【3】",
-    "data-sort2":7
+    "data-id": 156,
+    "data-name": "業物・匠珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":157,
-    "data-name":"業物・KO珠【3】",
-    "data-sort2":7
+    "data-id": 157,
+    "data-name": "業物・KO珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":158,
-    "data-name":"業物・鉄壁珠【3】",
-    "data-sort2":7
+    "data-id": 158,
+    "data-name": "業物・鉄壁珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":159,
-    "data-name":"剛刃珠【1】",
-    "data-sort2":3
+    "data-id": 159,
+    "data-name": "剛刃珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":160,
-    "data-name":"剛刃珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 160,
+    "data-name": "剛刃珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":161,
-    "data-name":"剛刃珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 161,
+    "data-name": "剛刃珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":162,
-    "data-name":"心眼珠【1】",
-    "data-sort2":3
+    "data-id": 162,
+    "data-name": "心眼珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":163,
-    "data-name":"心眼珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 163,
+    "data-name": "心眼珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":164,
-    "data-name":"心眼珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 164,
+    "data-name": "心眼珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":165,
-    "data-name":"鈍器珠【1】",
-    "data-sort2":3
+    "data-id": 165,
+    "data-name": "鈍器珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":166,
-    "data-name":"鈍器珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 166,
+    "data-name": "鈍器珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":167,
-    "data-name":"鈍器珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 167,
+    "data-name": "鈍器珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":168,
-    "data-name":"達芸珠【3】",
-    "data-sort2":5
+    "data-id": 168,
+    "data-name": "達芸珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":169,
-    "data-name":"強弾珠【3】",
-    "data-sort2":5
+    "data-id": 169,
+    "data-name": "強弾珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":170,
-    "data-name":"貫通珠【3】",
-    "data-sort2":5
+    "data-id": 170,
+    "data-name": "貫通珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":171,
-    "data-name":"散弾珠【3】",
-    "data-sort2":5
+    "data-id": 171,
+    "data-name": "散弾珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":172,
-    "data-name":"射法珠【1】",
-    "data-sort2":3
+    "data-id": 172,
+    "data-name": "射法珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":173,
-    "data-name":"射法珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 173,
+    "data-name": "射法珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":174,
-    "data-name":"射法珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 174,
+    "data-name": "射法珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":175,
-    "data-name":"速射珠【3】",
-    "data-sort2":5
+    "data-id": 175,
+    "data-name": "速射珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":176,
-    "data-name":"初弾珠【1】",
-    "data-sort2":3
+    "data-id": 176,
+    "data-name": "初弾珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":177,
-    "data-name":"初弾珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 177,
+    "data-name": "初弾珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":178,
-    "data-name":"初弾珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 178,
+    "data-name": "初弾珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":179,
-    "data-name":"初弾・火炎珠【3】",
-    "data-sort2":7
+    "data-id": 179,
+    "data-name": "初弾・火炎珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":180,
-    "data-name":"初弾・流水珠【3】",
-    "data-sort2":7
+    "data-id": 180,
+    "data-name": "初弾・流水珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":181,
-    "data-name":"初弾・氷結珠【3】",
-    "data-sort2":7
+    "data-id": 181,
+    "data-name": "初弾・氷結珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":182,
-    "data-name":"初弾・雷光珠【3】",
-    "data-sort2":7
+    "data-id": 182,
+    "data-name": "初弾・雷光珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":183,
-    "data-name":"初弾・破龍珠【3】",
-    "data-sort2":7
+    "data-id": 183,
+    "data-name": "初弾・破龍珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":184,
-    "data-name":"初弾・射法珠【3】",
-    "data-sort2":7
+    "data-id": 184,
+    "data-name": "初弾・射法珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":185,
-    "data-name":"初弾・鉄壁珠【3】",
-    "data-sort2":7
+    "data-id": 185,
+    "data-name": "初弾・鉄壁珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":186,
-    "data-name":"積弾珠【1】",
-    "data-sort2":3
+    "data-id": 186,
+    "data-name": "積弾珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":187,
-    "data-name":"積弾珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 187,
+    "data-name": "積弾珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":188,
-    "data-name":"積弾珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 188,
+    "data-name": "積弾珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":189,
-    "data-name":"積弾・火炎珠【3】",
-    "data-sort2":7
+    "data-id": 189,
+    "data-name": "積弾・火炎珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":190,
-    "data-name":"積弾・流水珠【3】",
-    "data-sort2":7
+    "data-id": 190,
+    "data-name": "積弾・流水珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":191,
-    "data-name":"積弾・氷結珠【3】",
-    "data-sort2":7
+    "data-id": 191,
+    "data-name": "積弾・氷結珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":192,
-    "data-name":"積弾・雷光珠【3】",
-    "data-sort2":7
+    "data-id": 192,
+    "data-name": "積弾・雷光珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":193,
-    "data-name":"積弾・破龍珠【3】",
-    "data-sort2":7
+    "data-id": 193,
+    "data-name": "積弾・破龍珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":194,
-    "data-name":"積弾・射法珠【3】",
-    "data-sort2":7
+    "data-id": 194,
+    "data-name": "積弾・射法珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":195,
-    "data-name":"積弾・鉄壁珠【3】",
-    "data-sort2":7
+    "data-id": 195,
+    "data-name": "積弾・鉄壁珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":196,
-    "data-name":"特射珠【1】",
-    "data-sort2":3
+    "data-id": 196,
+    "data-name": "特射珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":197,
-    "data-name":"特射珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 197,
+    "data-name": "特射珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":198,
-    "data-name":"毒瓶珠【2】",
-    "data-sort2":4
+    "data-id": 198,
+    "data-name": "毒瓶珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":199,
-    "data-name":"痺瓶珠【3】",
-    "data-sort2":5
+    "data-id": 199,
+    "data-name": "痺瓶珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":200,
-    "data-name":"眠瓶珠【3】",
-    "data-sort2":5
+    "data-id": 200,
+    "data-name": "眠瓶珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":201,
-    "data-name":"爆瓶珠【2】",
-    "data-sort2":4
+    "data-id": 201,
+    "data-name": "爆瓶珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":202,
-    "data-name":"防御珠【1】",
-    "data-sort2":3
+    "data-id": 202,
+    "data-name": "疲瓶珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":203,
-    "data-name":"加護珠【1】",
-    "data-sort2":3
+    "data-id": 203,
+    "data-name": "防御珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":204,
-    "data-name":"耐火珠【1】",
-    "data-sort2":3
+    "data-id": 204,
+    "data-name": "加護珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":205,
-    "data-name":"耐水珠【1】",
-    "data-sort2":3
+    "data-id": 205,
+    "data-name": "耐火珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":206,
-    "data-name":"耐氷珠【1】",
-    "data-sort2":3
+    "data-id": 206,
+    "data-name": "耐水珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":207,
-    "data-name":"耐雷珠【1】",
-    "data-sort2":3
+    "data-id": 207,
+    "data-name": "耐氷珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":208,
-    "data-name":"耐龍珠【1】",
-    "data-sort2":3
+    "data-id": 208,
+    "data-name": "耐雷珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":209,
-    "data-name":"耐毒珠【1】",
-    "data-sort2":3
+    "data-id": 209,
+    "data-name": "耐龍珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":210,
-    "data-name":"耐麻珠【1】",
-    "data-sort2":3
+    "data-id": 210,
+    "data-name": "耐毒珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":211,
-    "data-name":"耐眠珠【1】",
-    "data-sort2":3
+    "data-id": 211,
+    "data-name": "耐麻珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":212,
-    "data-name":"耐防珠【1】",
-    "data-sort2":3
+    "data-id": 212,
+    "data-name": "耐眠珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":213,
-    "data-name":"耐絶珠【1】",
-    "data-sort2":3
+    "data-id": 213,
+    "data-name": "耐防珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":214,
-    "data-name":"耐裂珠【1】",
-    "data-sort2":3
+    "data-id": 214,
+    "data-name": "耐絶珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":215,
-    "data-name":"耐拘珠【1】",
-    "data-sort2":3
+    "data-id": 215,
+    "data-name": "耐裂珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":216,
-    "data-name":"耐爆珠【1】",
-    "data-sort2":3
+    "data-id": 216,
+    "data-name": "耐拘珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":217,
-    "data-name":"耐臭珠【1】",
-    "data-sort2":3
+    "data-id": 217,
+    "data-name": "耐爆珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":218,
-    "data-name":"適応珠【1】",
-    "data-sort2":3
+    "data-id": 218,
+    "data-name": "耐臭珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":219,
-    "data-name":"治癒珠【1】",
-    "data-sort2":3
+    "data-id": 219,
+    "data-name": "適応珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":220,
-    "data-name":"早復珠【1】",
-    "data-sort2":3
+    "data-id": 220,
+    "data-name": "治癒珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":221,
-    "data-name":"環境珠【1】",
-    "data-sort2":3
+    "data-id": 221,
+    "data-name": "早復珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":222,
-    "data-name":"体術珠【1】",
-    "data-sort2":3
+    "data-id": 222,
+    "data-name": "環境珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":223,
-    "data-name":"早気珠【2】",
-    "data-sort2":4
+    "data-id": 223,
+    "data-name": "体術珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":224,
-    "data-name":"強走珠【1】",
-    "data-sort2":3
+    "data-id": 224,
+    "data-name": "早気珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":225,
-    "data-name":"無食珠【1】",
-    "data-sort2":3
+    "data-id": 225,
+    "data-name": "強走珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":226,
-    "data-name":"挑戦珠【3】",
-    "data-sort2":5
+    "data-id": 226,
+    "data-name": "無食珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":227,
-    "data-name":"全開珠【3】",
-    "data-sort2":5
+    "data-id": 227,
+    "data-name": "挑戦珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":228,
-    "data-name":"底力珠【2】",
-    "data-sort2":4
+    "data-id": 228,
+    "data-name": "全開珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":229,
-    "data-name":"連撃珠【3】",
-    "data-sort2":5
+    "data-id": 229,
+    "data-name": "底力珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":230,
-    "data-name":"攻勢珠【3】",
-    "data-sort2":5
+    "data-id": 230,
+    "data-name": "連撃珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":231,
-    "data-name":"集中珠【1】",
-    "data-sort2":3
+    "data-id": 231,
+    "data-name": "攻勢珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":232,
-    "data-name":"集中珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 232,
+    "data-name": "刺撃珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":233,
-    "data-name":"集中珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 233,
+    "data-name": "集中珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":234,
-    "data-name":"集中・火炎珠【3】",
-    "data-sort2":7
+    "data-id": 234,
+    "data-name": "集中珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":235,
-    "data-name":"集中・流水珠【3】",
-    "data-sort2":7
+    "data-id": 235,
+    "data-name": "集中珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":236,
-    "data-name":"集中・氷結珠【3】",
-    "data-sort2":7
+    "data-id": 236,
+    "data-name": "集中・火炎珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":237,
-    "data-name":"集中・雷光珠【3】",
-    "data-sort2":7
+    "data-id": 237,
+    "data-name": "集中・流水珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":238,
-    "data-name":"集中・破龍珠【3】",
-    "data-sort2":7
+    "data-id": 238,
+    "data-name": "集中・氷結珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":239,
-    "data-name":"集中・匠珠【3】",
-    "data-sort2":7
+    "data-id": 239,
+    "data-name": "集中・雷光珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":240,
-    "data-name":"集中・射法珠【3】",
-    "data-sort2":7
+    "data-id": 240,
+    "data-name": "集中・破龍珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":241,
-    "data-name":"集中・KO珠【3】",
-    "data-sort2":7
+    "data-id": 241,
+    "data-name": "集中・匠珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":242,
-    "data-name":"昂揚珠【1】",
-    "data-sort2":3
+    "data-id": 242,
+    "data-name": "集中・射法珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":243,
-    "data-name":"昂揚珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 243,
+    "data-name": "集中・KO珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":244,
-    "data-name":"昂揚珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 244,
+    "data-name": "昂揚珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":245,
-    "data-name":"昂揚・火炎珠【3】",
-    "data-sort2":7
+    "data-id": 245,
+    "data-name": "昂揚珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":246,
-    "data-name":"昂揚・流水珠【3】",
-    "data-sort2":7
+    "data-id": 246,
+    "data-name": "昂揚珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":247,
-    "data-name":"昂揚・氷結珠【3】",
-    "data-sort2":7
+    "data-id": 247,
+    "data-name": "昂揚・火炎珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":248,
-    "data-name":"昂揚・雷光珠【3】",
-    "data-sort2":7
+    "data-id": 248,
+    "data-name": "昂揚・流水珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":249,
-    "data-name":"昂揚・破龍珠【3】",
-    "data-sort2":7
+    "data-id": 249,
+    "data-name": "昂揚・氷結珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":250,
-    "data-name":"昂揚・匠珠【3】",
-    "data-sort2":7
+    "data-id": 250,
+    "data-name": "昂揚・雷光珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":251,
-    "data-name":"抜打珠【1】",
-    "data-sort2":3
+    "data-id": 251,
+    "data-name": "昂揚・破龍珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":252,
-    "data-name":"抜打珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 252,
+    "data-name": "昂揚・匠珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":253,
-    "data-name":"抜打珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 253,
+    "data-name": "抜打珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":254,
-    "data-name":"抜打・匠珠【3】",
-    "data-sort2":7
+    "data-id": 254,
+    "data-name": "抜打珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":255,
-    "data-name":"抜打・KO珠【3】",
-    "data-sort2":7
+    "data-id": 255,
+    "data-name": "抜打珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":256,
-    "data-name":"抜打・鉄壁珠【3】",
-    "data-sort2":7
+    "data-id": 256,
+    "data-name": "抜打・匠珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":257,
-    "data-name":"KO珠【1】",
-    "data-sort2":3
+    "data-id": 257,
+    "data-name": "抜打・KO珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":258,
-    "data-name":"KO珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 258,
+    "data-name": "抜打・鉄壁珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":259,
-    "data-name":"KO珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 259,
+    "data-name": "KO珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":260,
-    "data-name":"奪気珠【1】",
-    "data-sort2":3
+    "data-id": 260,
+    "data-name": "KO珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":261,
-    "data-name":"奪気珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 261,
+    "data-name": "KO珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":262,
-    "data-name":"奪気珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 262,
+    "data-name": "奪気珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":263,
-    "data-name":"砲術珠【1】",
-    "data-sort2":3
+    "data-id": 263,
+    "data-name": "奪気珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":264,
-    "data-name":"砲術珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 264,
+    "data-name": "奪気珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":265,
-    "data-name":"砲術珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 265,
+    "data-name": "砲術珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":266,
-    "data-name":"速変珠【1】",
-    "data-sort2":3
+    "data-id": 266,
+    "data-name": "砲術珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":267,
-    "data-name":"速変珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 267,
+    "data-name": "砲術珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":268,
-    "data-name":"速変珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 268,
+    "data-name": "速変珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":269,
-    "data-name":"速変・火炎珠【3】",
-    "data-sort2":7
+    "data-id": 269,
+    "data-name": "速変珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":270,
-    "data-name":"速変・流水珠【3】",
-    "data-sort2":7
+    "data-id": 270,
+    "data-name": "速変珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":271,
-    "data-name":"速変・氷結珠【3】",
-    "data-sort2":7
+    "data-id": 271,
+    "data-name": "速変・火炎珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":272,
-    "data-name":"速変・雷光珠【3】",
-    "data-sort2":7
+    "data-id": 272,
+    "data-name": "速変・流水珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":273,
-    "data-name":"速変・破龍珠【3】",
-    "data-sort2":7
+    "data-id": 273,
+    "data-name": "速変・氷結珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":274,
-    "data-name":"速変・匠珠【3】",
-    "data-sort2":7
+    "data-id": 274,
+    "data-name": "速変・雷光珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":275,
-    "data-name":"速変・KO珠【3】",
-    "data-sort2":7
+    "data-id": 275,
+    "data-name": "速変・破龍珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":276,
-    "data-name":"速変・鉄壁珠【3】",
-    "data-sort2":7
+    "data-id": 276,
+    "data-name": "速変・匠珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":277,
-    "data-name":"重撃珠【2】",
-    "data-sort2":4
+    "data-id": 277,
+    "data-name": "速変・KO珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":278,
-    "data-name":"転福珠【2】",
-    "data-sort2":7
+    "data-id": 278,
+    "data-name": "速変・鉄壁珠【3】",
+    "data-sort2": 7
   },
   {
-    "data-id":279,
-    "data-name":"鼓笛珠【2】",
-    "data-sort2":4
+    "data-id": 279,
+    "data-name": "重撃珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":280,
-    "data-name":"鼓笛・攻撃珠【3】",
-    "data-sort2":5
+    "data-id": 280,
+    "data-name": "転福珠【2】",
+    "data-sort2": 7
   },
   {
-    "data-id":281,
-    "data-name":"鼓笛・達人珠【3】",
-    "data-sort2":5
+    "data-id": 281,
+    "data-name": "抗狂珠【1】",
+    "data-sort2": 5
   },
   {
-    "data-id":282,
-    "data-name":"鼓笛・抜刀珠【3】",
-    "data-sort2":5
+    "data-id": 282,
+    "data-name": "急襲珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":283,
-    "data-name":"鼓笛・匠珠【3】",
-    "data-sort2":5
+    "data-id": 283,
+    "data-name": "鼓笛珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":284,
-    "data-name":"鼓笛・KO珠【3】",
-    "data-sort2":5
+    "data-id": 284,
+    "data-name": "鼓笛・攻撃珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":285,
-    "data-name":"溜打珠【2】",
-    "data-sort2":4
+    "data-id": 285,
+    "data-name": "鼓笛・達人珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":286,
-    "data-name":"溜打・攻撃珠【3】",
-    "data-sort2":5
+    "data-id": 286,
+    "data-name": "鼓笛・抜刀珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":287,
-    "data-name":"溜打・達人珠【3】",
-    "data-sort2":5
+    "data-id": 287,
+    "data-name": "鼓笛・匠珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":288,
-    "data-name":"溜打・抜刀珠【3】",
-    "data-sort2":5
+    "data-id": 288,
+    "data-name": "鼓笛・KO珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":289,
-    "data-name":"溜打・匠珠【3】",
-    "data-sort2":5
+    "data-id": 289,
+    "data-name": "溜打珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":290,
-    "data-name":"溜打・KO珠【3】",
-    "data-sort2":5
+    "data-id": 290,
+    "data-name": "溜打・攻撃珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":291,
-    "data-name":"飛燕珠【2】",
-    "data-sort2":4
+    "data-id": 291,
+    "data-name": "溜打・達人珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":292,
-    "data-name":"飛燕・攻撃珠【3】",
-    "data-sort2":5
+    "data-id": 292,
+    "data-name": "溜打・抜刀珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":293,
-    "data-name":"飛燕・達人珠【3】",
-    "data-sort2":5
+    "data-id": 293,
+    "data-name": "溜打・匠珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":294,
-    "data-name":"飛燕・抜刀珠【3】",
-    "data-sort2":5
+    "data-id": 294,
+    "data-name": "溜打・KO珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":295,
-    "data-name":"飛燕・匠珠【3】",
-    "data-sort2":5
+    "data-id": 295,
+    "data-name": "飛燕珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":296,
-    "data-name":"研鑽珠【1】",
-    "data-sort2":3
+    "data-id": 296,
+    "data-name": "飛燕・攻撃珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":297,
-    "data-name":"鉄壁珠【1】",
-    "data-sort2":3
+    "data-id": 297,
+    "data-name": "飛燕・達人珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":298,
-    "data-name":"鉄壁珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 298,
+    "data-name": "飛燕・抜刀珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":299,
-    "data-name":"鉄壁珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 299,
+    "data-name": "飛燕・匠珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":300,
-    "data-name":"回避珠【2】",
-    "data-sort2":4
+    "data-id": 300,
+    "data-name": "研鑽珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":301,
-    "data-name":"跳躍珠【2】",
-    "data-sort2":4
+    "data-id": 301,
+    "data-name": "強毒・鉄壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":302,
-    "data-name":"防音珠【2】",
-    "data-sort2":4
+    "data-id": 302,
+    "data-name": "強毒・KO珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":303,
-    "data-name":"強壁珠【1】",
-    "data-sort2":3
+    "data-id": 303,
+    "data-name": "強毒・射法珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":304,
-    "data-name":"強壁珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 304,
+    "data-name": "強毒・匠珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":305,
-    "data-name":"強壁珠Ⅲ【3】",
-    "data-sort2":5
+    "data-id": 305,
+    "data-name": "強毒・抜刀珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":306,
-    "data-name":"強壁・火炎珠【3】",
-    "data-sort2":6
+    "data-id": 306,
+    "data-name": "強毒・達人珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":307,
-    "data-name":"強壁・流水珠【3】",
-    "data-sort2":6
+    "data-id": 307,
+    "data-name": "強毒・攻撃珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":308,
-    "data-name":"強壁・氷結珠【3】",
-    "data-sort2":6
+    "data-id": 308,
+    "data-name": "強毒珠【2】",
+    "data-sort2": 5
   },
   {
-    "data-id":309,
-    "data-name":"強壁・雷光珠【3】",
-    "data-sort2":6
+    "data-id": 309,
+    "data-name": "鉄壁珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":310,
-    "data-name":"強壁・破龍珠【3】",
-    "data-sort2":6
+    "data-id": 310,
+    "data-name": "鉄壁珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":311,
-    "data-name":"強壁・匠珠【3】",
-    "data-sort2":6
+    "data-id": 311,
+    "data-name": "鉄壁珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":312,
-    "data-name":"強壁・鉄壁珠【3】",
-    "data-sort2":6
+    "data-id": 312,
+    "data-name": "回避珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":313,
-    "data-name":"速納珠【1】",
-    "data-sort2":3
+    "data-id": 313,
+    "data-name": "跳躍珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":314,
-    "data-name":"防風珠【1】",
-    "data-sort2":3
+    "data-id": 314,
+    "data-name": "防音珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":315,
-    "data-name":"耐震珠【1】",
-    "data-sort2":3
+    "data-id": 315,
+    "data-name": "強壁珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":316,
-    "data-name":"耐衝珠【1】",
-    "data-sort2":3
+    "data-id": 316,
+    "data-name": "強壁珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":317,
-    "data-name":"威嚇珠【1】",
-    "data-sort2":3
+    "data-id": 317,
+    "data-name": "強壁珠Ⅲ【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":318,
-    "data-name":"早食珠【1】",
-    "data-sort2":3
+    "data-id": 318,
+    "data-name": "強壁・火炎珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":319,
-    "data-name":"増弾珠【1】",
-    "data-sort2":3
+    "data-id": 319,
+    "data-name": "強壁・流水珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":320,
-    "data-name":"増弾珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 320,
+    "data-name": "強壁・氷結珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":321,
-    "data-name":"増弾・攻撃珠【3】",
-    "data-sort2":5
+    "data-id": 321,
+    "data-name": "強壁・雷光珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":322,
-    "data-name":"増弾・達人珠【3】",
-    "data-sort2":5
+    "data-id": 322,
+    "data-name": "強壁・破龍珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":323,
-    "data-name":"増弾・抜刀珠【3】",
-    "data-sort2":5
+    "data-id": 323,
+    "data-name": "強壁・匠珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":324,
-    "data-name":"増弾・匠珠【3】",
-    "data-sort2":5
+    "data-id": 324,
+    "data-name": "強壁・鉄壁珠【3】",
+    "data-sort2": 6
   },
   {
-    "data-id":325,
-    "data-name":"増弾・鉄壁珠【3】",
-    "data-sort2":5
+    "data-id": 325,
+    "data-name": "速納珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":326,
-    "data-name":"緩衝珠【1】",
-    "data-sort2":3
+    "data-id": 326,
+    "data-name": "防風珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":327,
-    "data-name":"飛込珠【1】",
-    "data-sort2":3
+    "data-id": 327,
+    "data-name": "耐震珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":328,
-    "data-name":"強跳珠【1】",
-    "data-sort2":3
+    "data-id": 328,
+    "data-name": "耐衝珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":329,
-    "data-name":"友愛珠【1】",
-    "data-sort2":3
+    "data-id": 329,
+    "data-name": "威嚇珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":330,
-    "data-name":"整備珠【2】",
-    "data-sort2":4
+    "data-id": 330,
+    "data-name": "早食珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":331,
-    "data-name":"爆師珠【1】",
-    "data-sort2":3
+    "data-id": 331,
+    "data-name": "増弾珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":332,
-    "data-name":"茸好珠【2】",
-    "data-sort2":4
+    "data-id": 332,
+    "data-name": "増弾珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":333,
-    "data-name":"持続珠【1】",
-    "data-sort2":3
+    "data-id": 333,
+    "data-name": "増弾・攻撃珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":334,
-    "data-name":"節食珠【1】",
-    "data-sort2":3
+    "data-id": 334,
+    "data-name": "増弾・達人珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":335,
-    "data-name":"研磨珠【1】",
-    "data-sort2":3
+    "data-id": 335,
+    "data-name": "増弾・抜刀珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":336,
-    "data-name":"研磨珠Ⅱ【2】",
-    "data-sort2":4
+    "data-id": 336,
+    "data-name": "増弾・匠珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":337,
-    "data-name":"研磨・攻撃珠【3】",
-    "data-sort2":5
+    "data-id": 337,
+    "data-name": "増弾・鉄壁珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":338,
-    "data-name":"研磨・達人珠【3】",
-    "data-sort2":5
+    "data-id": 338,
+    "data-name": "緩衝珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":339,
-    "data-name":"研磨・抜刀珠【3】",
-    "data-sort2":5
+    "data-id": 339,
+    "data-name": "飛込珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":340,
-    "data-name":"研磨・匠珠【3】",
-    "data-sort2":5
+    "data-id": 340,
+    "data-name": "強跳珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":341,
-    "data-name":"研磨・KO珠【3】",
-    "data-sort2":5
+    "data-id": 341,
+    "data-name": "友愛珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":342,
-    "data-name":"研磨・鉄壁珠【3】",
-    "data-sort2":5
+    "data-id": 342,
+    "data-name": "整備珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":343,
-    "data-name":"植学珠【1】",
-    "data-sort2":3
+    "data-id": 343,
+    "data-name": "爆師珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":344,
-    "data-name":"地学珠【1】",
-    "data-sort2":3
+    "data-id": 344,
+    "data-name": "茸好珠【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":345,
-    "data-name":"標本珠【1】",
-    "data-sort2":3
+    "data-id": 345,
+    "data-name": "持続珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":346,
-    "data-name":"沼渡珠【1】",
-    "data-sort2":3
+    "data-id": 346,
+    "data-name": "節食珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":347,
-    "data-name":"狩人珠【1】",
-    "data-sort2":3
+    "data-id": 347,
+    "data-name": "研磨珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":348,
-    "data-name":"閃光珠【1】",
-    "data-sort2":3
+    "data-id": 348,
+    "data-name": "研磨珠Ⅱ【2】",
+    "data-sort2": 4
   },
   {
-    "data-id":349,
-    "data-name":"登壁珠【1】",
-    "data-sort2":3
+    "data-id": 349,
+    "data-name": "研磨・攻撃珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":350,
-    "data-name":"強毒・鉄壁珠【3】",
-    "data-sort2":6
+    "data-id": 350,
+    "data-name": "研磨・達人珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":351,
-    "data-name":"強毒・KO珠【3】",
-    "data-sort2":6
+    "data-id": 351,
+    "data-name": "研磨・抜刀珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":352,
-    "data-name":"強毒・射法珠【3】",
-    "data-sort2":6
+    "data-id": 352,
+    "data-name": "研磨・匠珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":353,
-    "data-name":"強毒・匠珠【3】",
-    "data-sort2":6
+    "data-id": 353,
+    "data-name": "研磨・KO珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":354,
-    "data-name":"強毒・抜刀珠【3】",
-    "data-sort2":6
+    "data-id": 354,
+    "data-name": "研磨・鉄壁珠【3】",
+    "data-sort2": 5
   },
   {
-    "data-id":355,
-    "data-name":"強毒・達人珠【3】",
-    "data-sort2":6
+    "data-id": 355,
+    "data-name": "閃光珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":356,
-    "data-name":"強毒・攻撃珠【3】",
-    "data-sort2":6
+    "data-id": 356,
+    "data-name": "植学珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":357,
-    "data-name":"強毒珠【2】",
-    "data-sort2":5
+    "data-id": 357,
+    "data-name": "地学珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":358,
-    "data-name":"抗狂珠【1】",
-    "data-sort2":5
+    "data-id": 358,
+    "data-name": "標本珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":359,
-    "data-name":"急襲珠【2】",
-    "data-sort2":4
+    "data-id": 359,
+    "data-name": "沼渡珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":360,
-    "data-name":"刺撃珠【3】",
-    "data-sort2":5
+    "data-id": 360,
+    "data-name": "狩人珠【1】",
+    "data-sort2": 3
   },
   {
-    "data-id":361,
-    "data-name":"疲瓶珠【2】",
-    "data-sort2":4
+    "data-id": 361,
+    "data-name": "登壁珠【1】",
+    "data-sort2": 3
   }
 ]
