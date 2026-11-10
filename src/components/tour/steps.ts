@@ -40,9 +40,9 @@ export const TOUR_STEPS: TourStep[] = [
   },
   {
     target: 'file',
-    title: '保存・読み込み',
-    text: '所持データを .mhws ファイルに書き出し、別の端末へ引き継げます。',
-    pcText: 'ファイルに書き出して別の端末へ',
+    title: '引き継ぎ',
+    text: 'QRコードやURLで、所持データを別の端末へ移せます。バックアップにも。',
+    pcText: 'QRコード・URLで別の端末へ',
     place: ['below'],
   },
 

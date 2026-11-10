@@ -82,7 +82,7 @@ export default function ContactPage() {
                 className={fieldClass}
                 placeholder={
                   category === '不具合の報告'
-                    ? '何をしたときに、どうなったかを書いていただけると助かります（例：スマホで「保存」を押しても何も起きない）'
+                    ? '何をしたときに、どうなったかを書いていただけると助かります（例：スマホで「引き継ぎ」のQRコードを読み取っても読み込まれない）'
                     : ''
                 }
               />

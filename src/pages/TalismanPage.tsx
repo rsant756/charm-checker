@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import Layout from '../components/Layout'
 import { IMPORTANCE, importanceOf } from '../data/talismanWeights'
 import { WEAPONS, skillAppliesTo, type Weapon } from '../data/weapons'
@@ -47,14 +47,6 @@ export default function TalismanPage() {
   const [skills, setSkills] = useState<SkillInput[]>(EMPTY_SKILLS)
   const [slots, setSlots] = useState<string[]>(['', '', ''])
   const [selected, setSelected] = useState<Weapon | null>(null)
-
-  useEffect(() => {
-    const prev = document.title
-    document.title = '護石チェッカー｜武器種ごとに当たり護石を判定（モンハンワイルズ）'
-    return () => {
-      document.title = prev
-    }
-  }, [])
 
   const talisman: Talisman = useMemo(
     () => ({

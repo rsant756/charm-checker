@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useRef, useState, type ChangeEvent } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import DecorationCard from '../components/DecorationCard'
 import Tour from '../components/Tour'
+import TransferDialog from '../components/TransferDialog'
 import { hasSeenTour, markTourSeen } from '../components/tour/seen'
 import Indicator from '../components/Indicator'
 import Layout from '../components/Layout'
@@ -8,18 +9,20 @@ import { decorations, skillNames } from '../data'
 import { WEAPONS, weaponSpecificity } from '../data/weapons'
 import { filterDecorations } from '../lib/filter'
 import { completionStat, countOf, formatPercent, overallStat } from '../lib/stats'
-import { MAX_COUNT, loadFromStorage, parseMhws, saveToStorage, serializeMhws, type Owned } from '../lib/storage'
+import { MAX_COUNT, loadFromStorage, saveToStorage, type Owned } from '../lib/storage'
+import { decodeTransferCode, TRANSFER_PARAM, TransferCodeError } from '../lib/transferCode'
+import { confirmImport } from '../lib/transferUi'
 import type { Filters, OwnershipFilter } from '../types'
 
 const fieldClass = 'rounded border border-gray-300 bg-white px-2 py-2 sm:px-3'
-const knownIds = new Set(decorations.map((d) => d.id))
+const maxId = Math.max(...decorations.map((d) => d.id))
 const rarityOptions = [...new Set(decorations.map((d) => d.rarity))].sort((a, b) => a - b)
 const INITIAL_FILTERS: Filters = { ownership: 'all', rarity: 'all', type: 'all', weapon: 'all', search: '' }
 
 export default function CheckerPage() {
   const [owned, setOwned] = useState<Owned>(loadFromStorage)
   const [filters, setFilters] = useState<Filters>(INITIAL_FILTERS)
-  const fileInput = useRef<HTMLInputElement>(null)
+  const [transferOpen, setTransferOpen] = useState(false)
   const [tourOpen, setTourOpen] = useState(false)
 
   // 初回訪問時だけ使い方を自動表示（レイアウトが落ち着いてから）
@@ -37,6 +40,25 @@ export default function CheckerPage() {
   useEffect(() => {
     saveToStorage(owned)
   }, [owned])
+
+  // 引き継ぎ用URL（?code=MHWS1-…）で開かれたら、確認してから読み込む
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const code = params.get(TRANSFER_PARAM)
+    if (!code) return
+    params.delete(TRANSFER_PARAM)
+    const rest = params.toString()
+    window.history.replaceState(null, '', window.location.pathname + (rest ? `?${rest}` : '') + window.location.hash)
+    try {
+      const loaded = decodeTransferCode(code)
+      for (const id of loaded.keys()) if (id > maxId) loaded.delete(id)
+      // 初回表示時に一度だけ、URL（外部の状態）から読み込むため effect 内で更新する
+      // oxlint-disable-next-line react/set-state-in-effect
+      if (confirmImport(loaded)) setOwned(loaded)
+    } catch (e) {
+      alert(e instanceof TransferCodeError ? `引き継ぎに失敗しました: ${e.message}` : '引き継ぎに失敗しました')
+    }
+  }, [])
 
   const setFilter = <K extends keyof Filters>(key: K, value: Filters[K]) =>
     setFilters((prev) => ({ ...prev, [key]: value }))
@@ -70,29 +92,6 @@ export default function CheckerPage() {
 
   const overall = overallStat(decorations, owned)
   const completion = completionStat(decorations, owned)
-
-  const saveFile = () => {
-    const blob = new Blob([serializeMhws(owned)], { type: 'application/json' })
-    const a = document.createElement('a')
-    a.href = URL.createObjectURL(blob)
-    a.download = 'my-charms.mhws'
-    a.click()
-    setTimeout(() => URL.revokeObjectURL(a.href), 0)
-  }
-
-  const loadFile = async (e: ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0]
-    e.target.value = '' // 同じファイルを再選択できるように
-    if (!file) return
-    try {
-      const loaded = parseMhws(await file.text())
-      for (const id of loaded.keys()) if (!knownIds.has(id)) loaded.delete(id)
-      setOwned(loaded)
-      alert(`${loaded.size} 種類の所持データを読み込みました。`)
-    } catch {
-      alert('読み込み失敗: 正しい mhws ファイルではありません。')
-    }
-  }
 
   return (
     <Layout
@@ -178,22 +177,12 @@ export default function CheckerPage() {
           </select>
           <button
             type="button"
-            onClick={saveFile}
             data-tour="file"
-            disabled={owned.size === 0}
-            className="rounded bg-green-500 px-4 py-2 text-white hover:bg-green-600 disabled:cursor-not-allowed disabled:bg-gray-400"
-          >
-            保存
-          </button>
-          <button
-            type="button"
-            onClick={() => fileInput.current?.click()}
-            data-tour="file"
+            onClick={() => setTransferOpen(true)}
             className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
           >
-            読み込み
+            引き継ぎ
           </button>
-          <input ref={fileInput} type="file" accept=".mhws" onChange={loadFile} className="hidden" />
           <button
             type="button"
             data-tour="help"
@@ -223,7 +212,7 @@ export default function CheckerPage() {
         )}
         「必要」は1つの装備セットでスキル上限まで無駄なく使える個数の目安です。
         <br />
-        所持状態はこのブラウザに自動保存されます。別の端末へ移すときは「保存」で .mhws ファイルを書き出してください。
+        所持状態はこのブラウザに自動保存されます。別の端末へ移すときやバックアップは「引き継ぎ」から。
       </p>
 
       {filtered.length === 0 ? (
@@ -245,6 +234,9 @@ export default function CheckerPage() {
         </ul>
       )}
       {tourOpen && <Tour onClose={closeTour} />}
+      {transferOpen && (
+        <TransferDialog owned={owned} maxId={maxId} onImport={setOwned} onClose={() => setTransferOpen(false)} />
+      )}
     </Layout>
   )
 }

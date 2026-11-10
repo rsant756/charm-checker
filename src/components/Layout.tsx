@@ -12,10 +12,10 @@ const CURRENT_YEAR = new Date().getFullYear()
 
 const NAV_LINKS = [
   { to: '/', label: '装飾品チェッカー' },
-  { to: '/talisman', label: '護石チェッカー' },
-  { to: '/contact', label: 'ご意見・ご要望' },
-  { to: '/privacy', label: 'プライバシーポリシー' },
-  { to: '/terms', label: '利用規約' },
+  { to: '/talisman/', label: '護石チェッカー' },
+  { to: '/contact/', label: 'ご意見・ご要望' },
+  { to: '/privacy/', label: 'プライバシーポリシー' },
+  { to: '/terms/', label: '利用規約' },
 ]
 
 export default function Layout({ children, sidebarTop }: Props) {
@@ -64,7 +64,7 @@ export default function Layout({ children, sidebarTop }: Props) {
       </div>
 
       <footer className="w-full border-t bg-white py-4 text-center text-xs text-gray-500">
-        <Link to="/contact" className="mb-1 inline-block text-blue-600 hover:underline">
+        <Link to="/contact/" className="mb-1 inline-block text-blue-600 hover:underline">
           ご意見・ご要望はこちら
         </Link>
         <br />

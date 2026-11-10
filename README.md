@@ -55,7 +55,16 @@ npm run build    # dist/ に出力
 `src/data/weapons.ts` の `SKILL_WEAPONS`。ここに載っていないスキルは全武器で有効とみなす。
 スキル説明文や攻略サイト（Game8）で対象武器が明示・強く示唆されているものだけを限定し、根拠がないものは隠さない方針（詳細はファイル内コメント）。
 
+## ページ・SEO
+
+- URL は通常のパス（`/charm-checker/talisman/` など）。旧版の `#/privacy` 形式は `src/main.tsx` で新しい URL に置き換える
+- ページ一覧・タイトル・説明文は `src/seo/pages.json`。ページを追加したらここにも追加する
+- `npm run build` の最後に `scripts/build-pages.mjs` が、ページごとの `index.html`（title / description / OGP / canonical / 構造化データ入り）・`404.html`・`sitemap.xml` を `dist/` に書き出す
+- アクセス解析（Cloudflare Web Analytics）は `pages.json` の `analyticsToken` を入れると有効になり、プライバシーポリシーにも記載が出る
+
 ## データ形式・互換性
+
+- 引き継ぎコード: `MHWS1-XXXX-…-XX`（独自形式。`src/lib/transferCode.ts` に仕様）。URL `?code=` で開くと確認のうえ読み込む
 
 - ブラウザ保存: `localStorage` の `charm-checker:owned:v2`（旧キー `charm-checker:checked:v1` は初回読み込み時に引き継ぐ）
 - ファイル保存: `.mhws` = `{"version":"2.0","checkedItems":[id, ...],"counts":{"id":個数}}`

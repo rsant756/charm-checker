@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://rsant756.github.io/charm-checker/sitemap.xml
