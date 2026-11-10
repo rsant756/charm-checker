@@ -12,6 +12,7 @@ const CURRENT_YEAR = new Date().getFullYear()
 
 const NAV_LINKS = [
   { to: '/', label: '装飾品チェッカー' },
+  { to: '/talisman', label: '護石チェッカー' },
   { to: '/contact', label: 'ご意見・ご要望' },
   { to: '/privacy', label: 'プライバシーポリシー' },
   { to: '/terms', label: '利用規約' },

@@ -3,6 +3,7 @@ import { HashRouter, Route, Routes, useLocation } from 'react-router-dom'
 import CheckerPage from './pages/CheckerPage'
 import ContactPage from './pages/ContactPage'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import TalismanPage from './pages/TalismanPage'
 import TermsOfService from './pages/TermsOfService'
 
 function ScrollToTopOnNavigate() {
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsOfService />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/talisman" element={<TalismanPage />} />
         <Route path="*" element={<CheckerPage />} />
       </Routes>
     </HashRouter>
