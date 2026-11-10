@@ -24,7 +24,11 @@ npm run build    # dist/ に出力
 データは `src/data/decorations.json`。
 
 ```json
-{ "id": 362, "name": "新規珠", "slot": 2, "rarity": 5, "addedIn": "1.040" }
+{
+  "id": 362, "name": "新規珠", "slot": 2, "rarity": 5, "type": "weapon",
+  "skills": [{ "name": "攻撃", "level": 1 }],
+  "addedIn": "1.040"
+}
 ```
 
 ルール:
@@ -32,7 +36,11 @@ npm run build    # dist/ に出力
 1. **既存の `id` は絶対に変更・削除しない**（ユーザーの `.mhws` / ブラウザ保存データが壊れる）
 2. 新しい装飾品は末尾に **最大ID + 1** で追加する
 3. `name` には `【n】` を含めない（`slot` から自動で付く）
-4. 追加後に `npm test` が通ることを確認
+4. `type` は `weapon`（武器用）/ `armor`（防具用）、`skills` はレベルの高い順
+5. 追加後に `npm test` が通ることを確認
+
+スキル情報は `scripts/skills-source.csv`（出典: https://wilds.gameconductor.com/decoration/ 、2026-11-10 取得）から
+`node scripts/merge-skills.mjs` で結合した。
 
 ## データ形式・互換性
 

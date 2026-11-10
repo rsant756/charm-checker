@@ -1,25 +1,28 @@
 import { useEffect, useMemo, useRef, useState, type ChangeEvent } from 'react'
 import Indicator from '../components/Indicator'
 import Layout from '../components/Layout'
-import { decorations, displayName } from '../data'
+import { TYPE_LABEL, decorations, displayName, skillLabel, skillNames } from '../data'
+import { filterDecorations } from '../lib/filter'
 import { formatPercent, overallStat } from '../lib/stats'
 import { loadFromStorage, parseMhws, saveToStorage, serializeMhws } from '../lib/storage'
-import type { OwnershipFilter } from '../types'
+import type { Filters, OwnershipFilter } from '../types'
 
 const fieldClass = 'rounded border border-gray-300 bg-white px-2 py-2 sm:px-3'
 const knownIds = new Set(decorations.map((d) => d.id))
 const rarityOptions = [...new Set(decorations.map((d) => d.rarity))].sort((a, b) => a - b)
+const INITIAL_FILTERS: Filters = { ownership: 'all', rarity: 'all', type: 'all', search: '' }
 
 export default function CheckerPage() {
   const [checked, setChecked] = useState<Set<number>>(loadFromStorage)
-  const [ownership, setOwnership] = useState<OwnershipFilter>('all')
-  const [rarity, setRarity] = useState('all')
-  const [search, setSearch] = useState('')
+  const [filters, setFilters] = useState<Filters>(INITIAL_FILTERS)
   const fileInput = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     saveToStorage(checked)
   }, [checked])
+
+  const setFilter = <K extends keyof Filters>(key: K, value: Filters[K]) =>
+    setFilters((prev) => ({ ...prev, [key]: value }))
 
   const toggle = (id: number) =>
     setChecked((prev) => {
@@ -29,16 +32,9 @@ export default function CheckerPage() {
       return next
     })
 
-  const filtered = useMemo(() => {
-    const q = search.trim().toLowerCase()
-    return decorations.filter((d) => {
-      const isChecked = checked.has(d.id)
-      if (ownership === 'checked' && !isChecked) return false
-      if (ownership === 'unchecked' && isChecked) return false
-      if (rarity !== 'all' && String(d.rarity) !== rarity) return false
-      return q === '' || displayName(d).toLowerCase().includes(q)
-    })
-  }, [checked, ownership, rarity, search])
+  const filtered = useMemo(() => filterDecorations(decorations, checked, filters), [checked, filters])
+  const isFiltered =
+    filters.ownership !== 'all' || filters.rarity !== 'all' || filters.type !== 'all' || filters.search.trim() !== ''
 
   const overall = overallStat(decorations, checked)
 
@@ -80,10 +76,24 @@ export default function CheckerPage() {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
+          <input
+            type="search"
+            placeholder="装飾品名・スキル名で検索"
+            aria-label="装飾品名・スキル名で検索"
+            list="skill-names"
+            value={filters.search}
+            onChange={(e) => setFilter('search', e.target.value)}
+            className={`${fieldClass} w-full sm:w-72`}
+          />
+          <datalist id="skill-names">
+            {skillNames.map((s) => (
+              <option key={s} value={s} />
+            ))}
+          </datalist>
           <select
             aria-label="所持状態で絞り込み"
-            value={ownership}
-            onChange={(e) => setOwnership(e.target.value as OwnershipFilter)}
+            value={filters.ownership}
+            onChange={(e) => setFilter('ownership', e.target.value as OwnershipFilter)}
             className={fieldClass}
           >
             <option value="all">すべて</option>
@@ -91,9 +101,19 @@ export default function CheckerPage() {
             <option value="unchecked">未所持のみ</option>
           </select>
           <select
+            aria-label="武器用・防具用で絞り込み"
+            value={filters.type}
+            onChange={(e) => setFilter('type', e.target.value as Filters['type'])}
+            className={fieldClass}
+          >
+            <option value="all">武器・防具</option>
+            <option value="weapon">武器用</option>
+            <option value="armor">防具用</option>
+          </select>
+          <select
             aria-label="レア度で絞り込み"
-            value={rarity}
-            onChange={(e) => setRarity(e.target.value)}
+            value={String(filters.rarity)}
+            onChange={(e) => setFilter('rarity', e.target.value === 'all' ? 'all' : Number(e.target.value))}
             className={fieldClass}
           >
             <option value="all">レア度すべて</option>
@@ -103,14 +123,6 @@ export default function CheckerPage() {
               </option>
             ))}
           </select>
-          <input
-            type="search"
-            placeholder="名前で検索"
-            aria-label="名前で検索"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className={fieldClass}
-          />
           <button
             type="button"
             onClick={saveFile}
@@ -130,6 +142,16 @@ export default function CheckerPage() {
         </div>
       </div>
       <p className="mb-4 text-center text-xs text-gray-500">
+        {isFiltered && (
+          <>
+            {filtered.length} 件表示中（
+            <button type="button" onClick={() => setFilters(INITIAL_FILTERS)} className="text-blue-600 hover:underline">
+              絞り込みを解除
+            </button>
+            ）
+            <br />
+          </>
+        )}
         チェック状態はこのブラウザに自動保存されます。別の端末へ移すときは「保存」で .mhws ファイルを書き出してください。
       </p>
 
@@ -142,19 +164,38 @@ export default function CheckerPage() {
             return (
               <li key={d.id}>
                 <label
-                  className={`flex cursor-pointer items-center justify-between rounded-xl border p-4 shadow-sm transition hover:shadow-lg ${
+                  className={`flex h-full cursor-pointer items-center justify-between gap-3 rounded-xl border p-4 shadow-sm transition hover:shadow-lg ${
                     isChecked ? 'border-yellow-400 bg-yellow-50' : 'border-gray-200 bg-white'
                   }`}
                 >
-                  <span>
+                  <span className="min-w-0">
                     <span className="block font-semibold">{displayName(d)}</span>
-                    <span className="block text-sm text-gray-500">レア{d.rarity}</span>
+                    <span className="block text-xs text-gray-500">
+                      レア{d.rarity}・{TYPE_LABEL[d.type]}
+                    </span>
+                    <span className="mt-1 flex flex-wrap gap-1">
+                      {d.skills.map((s) => (
+                        <button
+                          key={s.name}
+                          type="button"
+                          title={`「${s.name}」で検索`}
+                          onClick={(e) => {
+                            e.preventDefault()
+                            setFilter('search', s.name)
+                            window.scrollTo({ top: 0, behavior: 'smooth' })
+                          }}
+                          className="rounded bg-gray-100 px-1.5 py-0.5 text-xs text-gray-700 hover:bg-blue-100 hover:text-blue-700"
+                        >
+                          {skillLabel(s)}
+                        </button>
+                      ))}
+                    </span>
                   </span>
                   <input
                     type="checkbox"
                     checked={isChecked}
                     onChange={() => toggle(d.id)}
-                    className="h-5 w-5 accent-yellow-500"
+                    className="h-5 w-5 shrink-0 accent-yellow-500"
                   />
                 </label>
               </li>

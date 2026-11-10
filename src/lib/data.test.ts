@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { decorations, displayName } from '../data'
+import { filterDecorations } from './filter'
 import { overallStat } from './stats'
 import { parseMhws, serializeMhws } from './storage'
 // 2025-07-12 公開版の charms.json（ID 互換性チェックの基準）
@@ -25,6 +26,47 @@ describe('decorations データ', () => {
 
   it('スロットLvは 1〜3', () => {
     for (const d of decorations) expect([1, 2, 3]).toContain(d.slot)
+  })
+
+  it('全装飾品に種別とスキルがある', () => {
+    for (const d of decorations) {
+      expect(['weapon', 'armor']).toContain(d.type)
+      expect(d.skills.length, d.name).toBeGreaterThan(0)
+      for (const s of d.skills) expect(s.level).toBeGreaterThan(0)
+    }
+  })
+})
+
+describe('検索・絞り込み', () => {
+  const none = new Set<number>()
+  const base = { ownership: 'all', rarity: 'all', type: 'all', search: '' } as const
+  const names = (search: string) =>
+    filterDecorations(decorations, none, { ...base, search }).map((d) => d.name)
+
+  it('スキル名で複合装飾品も見つかる', () => {
+    const r = names('業物')
+    expect(r).toContain('業物珠')
+    expect(r).toContain('破龍・業物珠') // 名前にもスキルにも業物を含む
+    expect(r).toContain('業物・KO珠')
+  })
+
+  it('スキル名だけで装飾品名に含まれないものも見つかる', () => {
+    expect(names('見切り')).toEqual(expect.arrayContaining(['達人珠', '飛燕・達人珠']))
+  })
+
+  it('全角半角・大文字小文字を区別しない', () => {
+    expect(names('ko')).toContain('KO珠')
+    expect(names('ＫＯ')).toContain('KO珠')
+    expect(names('回避距離up')).toContain('跳躍珠')
+  })
+
+  it('空白区切りは AND 検索', () => {
+    expect(names('匠 火属性')).toEqual(['火炎・匠珠'])
+  })
+
+  it('種別で絞り込める', () => {
+    const armor = filterDecorations(decorations, none, { ...base, type: 'armor' })
+    expect(armor.length).toBe(66)
   })
 })
 
