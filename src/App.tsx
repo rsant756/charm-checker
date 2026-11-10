@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { HashRouter, Route, Routes, useLocation } from 'react-router-dom'
 import CheckerPage from './pages/CheckerPage'
+import ContactPage from './pages/ContactPage'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import TermsOfService from './pages/TermsOfService'
 
@@ -20,6 +21,7 @@ export default function App() {
       <Routes>
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsOfService />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<CheckerPage />} />
       </Routes>
     </HashRouter>
