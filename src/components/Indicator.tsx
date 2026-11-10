@@ -1,25 +1,41 @@
 import { useState } from 'react'
 import { formatPercent, rarityStats, shareUrl, type Stat } from '../lib/stats'
+import type { Owned } from '../lib/storage'
 import type { Decoration } from '../types'
 
 const SITE_URL = 'https://rsant756.github.io/charm-checker/'
 
-type Props = { overall: Stat; list: Decoration[]; checked: Set<number> }
+type Props = { overall: Stat; completion: Stat; list: Decoration[]; checked: Owned }
 
-export default function Indicator({ overall, list, checked }: Props) {
+function Meter({ label, stat, unit, color, note }: { label: string; stat: Stat; unit: string; color: string; note: string }) {
+  return (
+    <div>
+      <p>
+        {label}: {stat.owned} / {stat.total}
+        {unit}（{formatPercent(stat.percent)}%）
+      </p>
+      <div className="mt-1 h-2 overflow-hidden rounded bg-gray-200">
+        <div className={`h-full transition-all ${color}`} style={{ width: `${stat.percent}%` }} />
+      </div>
+      <p className="mt-1 text-xs text-gray-500">{note}</p>
+    </div>
+  )
+}
+
+export default function Indicator({ overall, completion, list, checked }: Props) {
   const [showRarity, setShowRarity] = useState(false)
 
   return (
     <div className="space-y-4">
       <h2 className="text-xl font-bold">インジケーター</h2>
-      <div>
-        <p>
-          取得状況: {overall.owned} / {overall.total}（{formatPercent(overall.percent)}%）
-        </p>
-        <div className="mt-2 h-2 overflow-hidden rounded bg-gray-200">
-          <div className="h-full bg-yellow-500 transition-all" style={{ width: `${overall.percent}%` }} />
-        </div>
-      </div>
+      <Meter label="入手率" stat={overall} unit="種" color="bg-yellow-500" note="1個以上持っている種類" />
+      <Meter
+        label="コンプ率"
+        stat={completion}
+        unit="個"
+        color="bg-green-500"
+        note="必要数（1セットで無駄なく使える数）に対する所持数"
+      />
 
       <button
         type="button"

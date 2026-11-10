@@ -42,8 +42,17 @@ npm run build    # dist/ に出力
 スキル情報は `scripts/skills-source.csv`（出典: https://wilds.gameconductor.com/decoration/ 、2026-11-10 取得）から
 `node scripts/merge-skills.mjs` で結合した。
 
+### スキルの最大Lv（必要数の計算に使用）
+
+`src/data/skills.json`（スキル名 → 最大Lv）。`scripts/skill-max-source.csv` を編集して
+`node scripts/build-skills.mjs` で生成する（出典: https://wilds.gameconductor.com/skill/ 、2026-11-10 取得）。
+新しいスキルの装飾品を追加したときは、ここにも最大Lvを追加すること（テストで検出される）。
+
+必要数 = どのスキルも最大Lvを超えない個数（各スキルの「最大Lv ÷ 珠のLv（切り上げ）」の最小値）。
+
 ## データ形式・互換性
 
-- ブラウザ保存: `localStorage` の `charm-checker:checked:v1`
-- ファイル保存: `.mhws` = `{"version":"1.0","checkedItems":[id, ...]}`（旧版と同じ形式）
+- ブラウザ保存: `localStorage` の `charm-checker:owned:v2`（旧キー `charm-checker:checked:v1` は初回読み込み時に引き継ぐ）
+- ファイル保存: `.mhws` = `{"version":"2.0","checkedItems":[id, ...],"counts":{"id":個数}}`
+  - 旧形式 `{"version":"1.0","checkedItems":[...]}` も読み込める（チェック済み＝1個所持）
 - `scripts/legacy-charms.json` は 2025-07-12 公開版のデータ。テストで ID 互換性の基準として使う

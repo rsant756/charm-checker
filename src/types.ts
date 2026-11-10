@@ -15,7 +15,8 @@ export type Decoration = {
   addedIn?: string
 }
 
-export type OwnershipFilter = 'all' | 'checked' | 'unchecked'
+/** checked: 1個以上所持 / unchecked: 未所持 / incomplete: 必要数に足りない */
+export type OwnershipFilter = 'all' | 'checked' | 'unchecked' | 'incomplete'
 
 export type Filters = {
   ownership: OwnershipFilter

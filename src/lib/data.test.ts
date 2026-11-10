@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
-import { decorations, displayName } from '../data'
+import { decorations, displayName, neededCount, skillMax } from '../data'
 import { filterDecorations } from './filter'
-import { overallStat } from './stats'
+import { completionStat, overallStat } from './stats'
 import { parseMhws, serializeMhws } from './storage'
 // 2025-07-12 公開版の charms.json（ID 互換性チェックの基準）
 import legacyRaw from '../../scripts/legacy-charms.json'
@@ -38,7 +38,7 @@ describe('decorations データ', () => {
 })
 
 describe('検索・絞り込み', () => {
-  const none = new Set<number>()
+  const none = new Map<number, number>()
   const base = { ownership: 'all', rarity: 'all', type: 'all', search: '' } as const
   const names = (search: string) =>
     filterDecorations(decorations, none, { ...base, search }).map((d) => d.name)
@@ -71,13 +71,38 @@ describe('検索・絞り込み', () => {
 })
 
 describe('.mhws 入出力', () => {
-  it('旧アプリが書き出した形式を読める', () => {
-    expect(parseMhws('{"version":"1.0","checkedItems":[3,1,2]}')).toEqual([3, 1, 2])
+  it('旧アプリ（1.0）の形式はチェック済み＝1個として読める', () => {
+    expect(parseMhws('{"version":"1.0","checkedItems":[3,1,2]}')).toEqual(
+      new Map([
+        [3, 1],
+        [1, 1],
+        [2, 1],
+      ]),
+    )
   })
 
-  it('書き出し→読み込みで同じ ID に戻る', () => {
-    const ids = new Set([5, 1, 300])
-    expect(new Set(parseMhws(serializeMhws(ids)))).toEqual(ids)
+  it('書き出し→読み込みで同じ所持数に戻る', () => {
+    const owned = new Map([
+      [5, 3],
+      [1, 1],
+      [300, 2],
+    ])
+    expect(parseMhws(serializeMhws(owned))).toEqual(owned)
+  })
+
+  it('新形式にも checkedItems を含む（旧形式との互換）', () => {
+    const data = JSON.parse(serializeMhws(new Map([[7, 2]])))
+    expect(data.checkedItems).toEqual([7])
+    expect(data.counts).toEqual({ 7: 2 })
+  })
+
+  it('不正な個数は丸める・捨てる', () => {
+    expect(parseMhws('{"counts":{"1":-2,"2":1000,"3":2.7,"x":1}}')).toEqual(
+      new Map([
+        [2, 99],
+        [3, 2],
+      ]),
+    )
   })
 
   it('不正なファイルは例外', () => {
@@ -86,10 +111,46 @@ describe('.mhws 入出力', () => {
   })
 })
 
+describe('必要数', () => {
+  const byName = (n: string) => decorations.find((d) => d.name === n)!
+
+  it('全スキルに最大Lvがあり、装飾品のLvは最大Lv以下', () => {
+    for (const d of decorations)
+      for (const s of d.skills) {
+        expect(skillMax[s.name], s.name).toBeGreaterThan(0)
+        expect(s.level).toBeLessThanOrEqual(skillMax[s.name])
+      }
+  })
+
+  it('単体スキル: 最大Lv ÷ 珠のLv（切り上げ）', () => {
+    expect(neededCount(byName('攻撃珠'))).toBe(5) // 攻撃 最大Lv5
+    expect(neededCount(byName('攻撃珠Ⅱ'))).toBe(3)
+    expect(neededCount(byName('攻撃珠Ⅲ'))).toBe(2)
+    expect(neededCount(byName('業物珠'))).toBe(3) // 業物 最大Lv3
+  })
+
+  it('複合: どのスキルも上限を超えない個数', () => {
+    expect(neededCount(byName('業物・匠珠'))).toBe(1) // 業物Lv3（最大3）が先にあふれる
+  })
+})
+
 describe('取得率', () => {
   it('数値で計算される（旧版の共有率 0.00% バグの回帰防止）', () => {
-    const s = overallStat(decorations, new Set([1, 2]))
+    const s = overallStat(
+      decorations,
+      new Map([
+        [1, 1],
+        [2, 4],
+      ]),
+    )
     expect(typeof s.percent).toBe('number')
     expect(s.percent).toBeCloseTo((2 / decorations.length) * 100)
+  })
+
+  it('コンプ率は必要数を超えた分を数えない', () => {
+    const atk = decorations.find((d) => d.name === '攻撃珠')!
+    const one = [atk]
+    expect(completionStat(one, new Map([[atk.id, 2]])).percent).toBeCloseTo(40)
+    expect(completionStat(one, new Map([[atk.id, 9]])).percent).toBe(100)
   })
 })
