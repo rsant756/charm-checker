@@ -1,4 +1,5 @@
 import { displayName, neededCount } from '../data'
+import { decorationUsableBy, type Weapon } from '../data/weapons'
 import type { Decoration, Filters } from '../types'
 import { countOf } from './stats'
 import type { Owned } from './storage'
@@ -22,6 +23,7 @@ export function filterDecorations(list: Decoration[], owned: Owned, f: Filters):
     if (f.ownership === 'incomplete' && count >= neededCount(d)) return false
     if (f.rarity !== 'all' && d.rarity !== f.rarity) return false
     if (f.type !== 'all' && d.type !== f.type) return false
+    if (f.weapon !== 'all' && !decorationUsableBy(d, f.weapon as Weapon)) return false
     return matchesSearch(d, f.search)
   })
 }

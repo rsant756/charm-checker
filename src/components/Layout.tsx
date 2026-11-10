@@ -29,6 +29,7 @@ export default function Layout({ children, sidebarTop }: Props) {
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? 'メニューを閉じる' : 'メニューを開く'}
         aria-expanded={open}
+        data-tour="menu"
         className="fixed top-3 right-3 z-[60] flex h-11 w-11 flex-col items-center justify-center gap-1.5 rounded-lg bg-white/90 shadow md:hidden"
       >
         <span className={`h-0.5 w-6 bg-gray-800 transition ${open ? 'translate-y-2 rotate-45' : ''}`} />

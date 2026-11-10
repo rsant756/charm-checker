@@ -28,6 +28,7 @@ export default function Indicator({ overall, completion, list, checked }: Props)
   return (
     <div className="space-y-4">
       <h2 className="text-xl font-bold">インジケーター</h2>
+      <div data-tour="stats" className="space-y-4">
       <Meter label="入手率" stat={overall} unit="種" color="bg-yellow-500" note="1個以上持っている種類" />
       <Meter
         label="コンプ率"
@@ -35,7 +36,8 @@ export default function Indicator({ overall, completion, list, checked }: Props)
         unit="個"
         color="bg-green-500"
         note="必要数（1セットで無駄なく使える数）に対する所持数"
-      />
+        />
+      </div>
 
       <button
         type="button"

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { decorations, displayName, neededCount, skillMax } from '../data'
+import { SKILL_WEAPONS } from '../data/weapons'
 import { filterDecorations } from './filter'
 import { completionStat, overallStat } from './stats'
 import { parseMhws, serializeMhws } from './storage'
@@ -39,7 +40,7 @@ describe('decorations データ', () => {
 
 describe('検索・絞り込み', () => {
   const none = new Map<number, number>()
-  const base = { ownership: 'all', rarity: 'all', type: 'all', search: '' } as const
+  const base = { ownership: 'all', rarity: 'all', type: 'all', weapon: 'all', search: '' } as const
   const names = (search: string) =>
     filterDecorations(decorations, none, { ...base, search }).map((d) => d.name)
 
@@ -62,6 +63,32 @@ describe('検索・絞り込み', () => {
 
   it('空白区切りは AND 検索', () => {
     expect(names('匠 火属性')).toEqual(['火炎・匠珠'])
+  })
+
+  it('武器種: その武器で効果のないスキルを含む装飾品は除外', () => {
+    const forWeapon = (weapon: string) =>
+      filterDecorations(decorations, none, { ...base, weapon }).map((d) => d.name)
+    const bow = forWeapon('弓')
+    expect(bow).toContain('毒瓶珠')
+    expect(bow).toContain('攻撃珠')
+    expect(bow).not.toContain('匠珠') // 斬れ味は近接のみ
+    expect(bow).not.toContain('増弾珠')
+    const gs = forWeapon('大剣')
+    expect(gs).toContain('匠珠')
+    expect(gs).toContain('鉄壁珠') // ガード可能
+    expect(gs).not.toContain('増弾・攻撃珠') // 砲弾装填は大剣に無効
+    expect(gs).not.toContain('毒瓶珠')
+    expect(forWeapon('ガンランス')).toContain('増弾・攻撃珠')
+    expect(forWeapon('太刀')).not.toContain('鉄壁珠') // 太刀はガード不可
+    expect(forWeapon('ライトボウガン')).not.toContain('心眼珠') // 心眼は近接のみ
+    expect(forWeapon('片手剣')).not.toContain('集中珠')
+    expect(forWeapon('弓')).toContain('集中珠')
+    expect(forWeapon('狩猟笛')).not.toContain('溜幅珠') // チャージマスター
+    expect(forWeapon('ハンマー')).toContain('溜幅珠')
+  })
+
+  it('武器種の対象スキルはすべて実在するスキル名', () => {
+    for (const skill of Object.keys(SKILL_WEAPONS)) expect(skillMax[skill], skill).toBeGreaterThan(0)
   })
 
   it('種別で絞り込める', () => {

@@ -1,8 +1,11 @@
 import { useEffect, useMemo, useRef, useState, type ChangeEvent } from 'react'
 import DecorationCard from '../components/DecorationCard'
+import Tour from '../components/Tour'
+import { hasSeenTour, markTourSeen } from '../components/tour/seen'
 import Indicator from '../components/Indicator'
 import Layout from '../components/Layout'
 import { decorations, skillNames } from '../data'
+import { WEAPONS, weaponSpecificity } from '../data/weapons'
 import { filterDecorations } from '../lib/filter'
 import { completionStat, countOf, formatPercent, overallStat } from '../lib/stats'
 import { MAX_COUNT, loadFromStorage, parseMhws, saveToStorage, serializeMhws, type Owned } from '../lib/storage'
@@ -11,12 +14,25 @@ import type { Filters, OwnershipFilter } from '../types'
 const fieldClass = 'rounded border border-gray-300 bg-white px-2 py-2 sm:px-3'
 const knownIds = new Set(decorations.map((d) => d.id))
 const rarityOptions = [...new Set(decorations.map((d) => d.rarity))].sort((a, b) => a - b)
-const INITIAL_FILTERS: Filters = { ownership: 'all', rarity: 'all', type: 'all', search: '' }
+const INITIAL_FILTERS: Filters = { ownership: 'all', rarity: 'all', type: 'all', weapon: 'all', search: '' }
 
 export default function CheckerPage() {
   const [owned, setOwned] = useState<Owned>(loadFromStorage)
   const [filters, setFilters] = useState<Filters>(INITIAL_FILTERS)
   const fileInput = useRef<HTMLInputElement>(null)
+  const [tourOpen, setTourOpen] = useState(false)
+
+  // 初回訪問時だけ使い方を自動表示（レイアウトが落ち着いてから）
+  useEffect(() => {
+    if (hasSeenTour()) return
+    const t = setTimeout(() => setTourOpen(true), 600)
+    return () => clearTimeout(t)
+  }, [])
+
+  const closeTour = () => {
+    markTourSeen()
+    setTourOpen(false)
+  }
 
   useEffect(() => {
     saveToStorage(owned)
@@ -39,9 +55,18 @@ export default function CheckerPage() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  const filtered = useMemo(() => filterDecorations(decorations, owned, filters), [owned, filters])
+  const filtered = useMemo(() => {
+    const list = filterDecorations(decorations, owned, filters)
+    // 武器種を選んだときは、その武器専用に近い装飾品ほど先頭に（同じ限定度の中では元の順）
+    if (filters.weapon === 'all') return list
+    return list.toSorted((a, b) => weaponSpecificity(a) - weaponSpecificity(b))
+  }, [owned, filters])
   const isFiltered =
-    filters.ownership !== 'all' || filters.rarity !== 'all' || filters.type !== 'all' || filters.search.trim() !== ''
+    filters.ownership !== 'all' ||
+    filters.rarity !== 'all' ||
+    filters.type !== 'all' ||
+    filters.weapon !== 'all' ||
+    filters.search.trim() !== ''
 
   const overall = overallStat(decorations, owned)
   const completion = completionStat(decorations, owned)
@@ -82,13 +107,14 @@ export default function CheckerPage() {
           />
           <h1 className="text-2xl font-bold sm:text-3xl">装飾品取得チェッカー</h1>
         </div>
-        <p className="mb-3 text-center text-sm text-gray-600 md:hidden">
+        <p data-tour="stats" className="mb-3 text-center text-sm text-gray-600 md:hidden">
           入手率 {formatPercent(overall.percent)}%・コンプ率 {formatPercent(completion.percent)}%
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
           <input
             type="search"
+            data-tour="search"
             placeholder="装飾品名・スキル名で検索"
             aria-label="装飾品名・スキル名で検索"
             list="skill-names"
@@ -103,6 +129,7 @@ export default function CheckerPage() {
           </datalist>
           <select
             aria-label="所持状態で絞り込み"
+            data-tour="ownership"
             value={filters.ownership}
             onChange={(e) => setFilter('ownership', e.target.value as OwnershipFilter)}
             className={fieldClass}
@@ -111,6 +138,20 @@ export default function CheckerPage() {
             <option value="checked">所持のみ</option>
             <option value="unchecked">未所持のみ</option>
             <option value="incomplete">必要数に未達</option>
+          </select>
+          <select
+            aria-label="武器種で絞り込み"
+            data-tour="weapon"
+            value={filters.weapon}
+            onChange={(e) => setFilter('weapon', e.target.value)}
+            className={fieldClass}
+          >
+            <option value="all">武器種すべて</option>
+            {WEAPONS.map((w) => (
+              <option key={w} value={w}>
+                {w}
+              </option>
+            ))}
           </select>
           <select
             aria-label="武器用・防具用で絞り込み"
@@ -138,6 +179,7 @@ export default function CheckerPage() {
           <button
             type="button"
             onClick={saveFile}
+            data-tour="file"
             disabled={owned.size === 0}
             className="rounded bg-green-500 px-4 py-2 text-white hover:bg-green-600 disabled:cursor-not-allowed disabled:bg-gray-400"
           >
@@ -146,11 +188,20 @@ export default function CheckerPage() {
           <button
             type="button"
             onClick={() => fileInput.current?.click()}
+            data-tour="file"
             className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
           >
             読み込み
           </button>
           <input ref={fileInput} type="file" accept=".mhws" onChange={loadFile} className="hidden" />
+          <button
+            type="button"
+            data-tour="help"
+            onClick={() => setTourOpen(true)}
+            className="rounded border border-gray-300 bg-white px-3 py-2 text-gray-700 hover:bg-gray-50"
+          >
+            ？ 使い方
+          </button>
         </div>
       </div>
       <p className="mb-4 text-center text-xs text-gray-500">
@@ -164,6 +215,12 @@ export default function CheckerPage() {
             <br />
           </>
         )}
+        {filters.weapon !== 'all' && (
+          <>
+            {filters.weapon}で効果のあるスキルの装飾品だけを表示しています（{filters.weapon}向けのスキルを先頭に表示）。
+            <br />
+          </>
+        )}
         「必要」は1つの装備セットでスキル上限まで無駄なく使える個数の目安です。
         <br />
         所持状態はこのブラウザに自動保存されます。別の端末へ移すときは「保存」で .mhws ファイルを書き出してください。
@@ -173,9 +230,11 @@ export default function CheckerPage() {
         <p className="py-12 text-center text-gray-500">該当する装飾品がありません。</p>
       ) : (
         <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((d) => (
+          {filtered.map((d, i) => (
             <li key={d.id}>
               <DecorationCard
+                tourAnchor={i === 0}
+                tourCandidate={i < 6}
                 decoration={d}
                 count={countOf(owned, d.id)}
                 onChange={(n) => setCount(d.id, n)}
@@ -185,6 +244,7 @@ export default function CheckerPage() {
           ))}
         </ul>
       )}
+      {tourOpen && <Tour onClose={closeTour} />}
     </Layout>
   )
 }

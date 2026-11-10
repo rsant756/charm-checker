@@ -1,4 +1,5 @@
 import { TYPE_LABEL, displayName, neededCount, skillLabel } from '../data'
+import { SKILL_WEAPONS } from '../data/weapons'
 import { MAX_COUNT } from '../lib/storage'
 import type { Decoration } from '../types'
 
@@ -7,12 +8,17 @@ type Props = {
   count: number
   onChange: (count: number) => void
   onSkillClick: (skill: string) => void
+  /** 使い方ツアーの説明対象にする（一覧の先頭カードのみ） */
+  tourAnchor?: boolean
+  /** PC 用使い方の「カードの見方」の候補（一覧の先頭数枚） */
+  tourCandidate?: boolean
 }
 
 const stepClass =
   'flex h-8 w-8 items-center justify-center rounded-full border text-lg leading-none disabled:cursor-not-allowed disabled:opacity-30'
 
-export default function DecorationCard({ decoration: d, count, onChange, onSkillClick }: Props) {
+export default function DecorationCard({ decoration: d, count, onChange, onSkillClick, tourAnchor, tourCandidate }: Props) {
+  const tour = (key: string) => (tourAnchor ? { 'data-tour': key } : {})
   const need = neededCount(d)
   const complete = count >= need
   const tone = complete
@@ -22,7 +28,7 @@ export default function DecorationCard({ decoration: d, count, onChange, onSkill
       : 'border-gray-200 bg-white'
 
   return (
-    <div className={`flex h-full flex-col gap-2 rounded-xl border p-4 shadow-sm transition hover:shadow-lg ${tone}`}>
+    <div {...(tourCandidate ? { 'data-tour-card': '' } : {})} className={`flex h-full flex-col gap-2 rounded-xl border p-4 shadow-sm transition hover:shadow-lg ${tone}`}>
       <label className="flex cursor-pointer items-start justify-between gap-3">
         <span className="min-w-0">
           <span className="block font-semibold">{displayName(d)}</span>
@@ -31,6 +37,7 @@ export default function DecorationCard({ decoration: d, count, onChange, onSkill
           </span>
         </span>
         <input
+          {...tour('card-check')}
           type="checkbox"
           aria-label={`${displayName(d)}を所持`}
           checked={count > 0}
@@ -39,27 +46,32 @@ export default function DecorationCard({ decoration: d, count, onChange, onSkill
         />
       </label>
 
-      <div className="flex flex-wrap gap-1">
-        {d.skills.map((s) => (
-          <button
-            key={s.name}
-            type="button"
-            title={`「${s.name}」で検索`}
-            onClick={() => onSkillClick(s.name)}
-            className="rounded bg-gray-100 px-1.5 py-0.5 text-xs text-gray-700 hover:bg-blue-100 hover:text-blue-700"
-          >
-            {skillLabel(s)}
-          </button>
-        ))}
+      <div {...tour('card-skill')} className="flex flex-wrap gap-1">
+        {d.skills.map((s) => {
+          const weapons = SKILL_WEAPONS[s.name]
+          return (
+            <button
+              key={s.name}
+              type="button"
+              title={`「${s.name}」で検索${weapons ? `\n効果のある武器: ${weapons.join('・')}` : ''}`}
+              onClick={() => onSkillClick(s.name)}
+              className={`rounded px-1.5 py-0.5 text-xs hover:bg-blue-100 hover:text-blue-700 ${
+                weapons ? 'bg-indigo-50 text-indigo-700 ring-1 ring-indigo-200' : 'bg-gray-100 text-gray-700'
+              }`}
+            >
+              {skillLabel(s)}
+            </button>
+          )
+        })}
       </div>
 
       <div className="mt-auto flex items-center justify-between gap-2 pt-1">
-        <span className="text-sm">
+        <span {...tour('card-need')} className="text-sm">
           所持 <span className="font-bold">{count}</span>
           <span className="text-gray-500"> / 必要 {need}</span>
           {complete && <span className="ml-1 text-xs font-semibold text-green-700">✔ コンプ</span>}
         </span>
-        <span className="flex items-center gap-1">
+        <span {...tour('card-stepper')} className="flex items-center gap-1">
           <button
             type="button"
             aria-label={`${displayName(d)}の所持数を減らす`}

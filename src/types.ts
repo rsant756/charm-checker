@@ -22,5 +22,7 @@ export type Filters = {
   ownership: OwnershipFilter
   rarity: 'all' | number
   type: 'all' | DecorationType
+  /** 武器種名（data/weapons.ts の WEAPONS）。その武器で効果のある装飾品だけにする */
+  weapon: 'all' | string
   search: string
 }
