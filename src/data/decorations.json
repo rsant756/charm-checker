@@ -1,0 +1,2168 @@
+[
+  {
+    "id": 1,
+    "name": "攻撃珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 2,
+    "name": "攻撃珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 3,
+    "name": "攻撃珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 4,
+    "name": "逆上珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 5,
+    "name": "反攻珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 6,
+    "name": "守勢珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 7,
+    "name": "守勢珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 8,
+    "name": "守勢珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 9,
+    "name": "守勢・火炎珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 10,
+    "name": "守勢・流水珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 11,
+    "name": "守勢・雷光珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 12,
+    "name": "守勢・氷結珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 13,
+    "name": "守勢・破龍珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 14,
+    "name": "守勢・匠珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 15,
+    "name": "守勢・鉄壁珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 16,
+    "name": "無傷珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 17,
+    "name": "逆襲珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 18,
+    "name": "達人珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 19,
+    "name": "達人珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 20,
+    "name": "達人珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 21,
+    "name": "超心珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 22,
+    "name": "超心珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 23,
+    "name": "超心珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 24,
+    "name": "痛撃珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 25,
+    "name": "抜刀珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 26,
+    "name": "抜刀珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 27,
+    "name": "抜刀珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 28,
+    "name": "渾身珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 29,
+    "name": "火炎珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 30,
+    "name": "火炎珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 31,
+    "name": "火炎珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 32,
+    "name": "火炎・守勢珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 33,
+    "name": "火炎・属会珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 34,
+    "name": "火炎・匠珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 35,
+    "name": "火炎・業物珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 36,
+    "name": "火炎・射法珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 37,
+    "name": "火炎・初弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 38,
+    "name": "火炎・積弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 39,
+    "name": "火炎・集中珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 40,
+    "name": "火炎・昂揚珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 41,
+    "name": "火炎・KO珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 42,
+    "name": "火炎・速変珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 43,
+    "name": "火炎・鉄壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 44,
+    "name": "火炎・強壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 45,
+    "name": "流水珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 46,
+    "name": "流水珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 47,
+    "name": "流水珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 48,
+    "name": "流水・守勢珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 49,
+    "name": "流水・属会珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 50,
+    "name": "流水・匠珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 51,
+    "name": "流水・業物珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 52,
+    "name": "流水・射法珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 53,
+    "name": "流水・初弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 54,
+    "name": "流水・積弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 55,
+    "name": "流水・集中珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 56,
+    "name": "流水・昂揚珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 57,
+    "name": "流水・KO珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 58,
+    "name": "流水・速変珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 59,
+    "name": "流水・鉄壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 60,
+    "name": "流水・強壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 61,
+    "name": "雷光珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 62,
+    "name": "雷光珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 63,
+    "name": "雷光珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 64,
+    "name": "雷光・守勢珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 65,
+    "name": "雷光・属会珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 66,
+    "name": "雷光・匠珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 67,
+    "name": "雷光・業物珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 68,
+    "name": "雷光・射法珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 69,
+    "name": "雷光・初弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 70,
+    "name": "雷光・積弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 71,
+    "name": "雷光・集中珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 72,
+    "name": "雷光・昂揚珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 73,
+    "name": "雷光・KO珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 74,
+    "name": "雷光・速変珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 75,
+    "name": "雷光・鉄壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 76,
+    "name": "雷光・強壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 77,
+    "name": "氷結珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 78,
+    "name": "氷結珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 79,
+    "name": "氷結珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 80,
+    "name": "氷結・守勢珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 81,
+    "name": "氷結・属会珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 82,
+    "name": "氷結・匠珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 83,
+    "name": "氷結・業物珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 84,
+    "name": "氷結・射法珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 85,
+    "name": "氷結・初弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 86,
+    "name": "氷結・積弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 87,
+    "name": "氷結・集中珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 88,
+    "name": "氷結・昂揚珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 89,
+    "name": "氷結・KO珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 90,
+    "name": "氷結・速変珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 91,
+    "name": "氷結・鉄壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 92,
+    "name": "氷結・強壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 93,
+    "name": "破龍珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 94,
+    "name": "破龍珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 95,
+    "name": "破龍珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 96,
+    "name": "破龍・守勢珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 97,
+    "name": "破龍・属会珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 98,
+    "name": "破龍・匠珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 99,
+    "name": "破龍・業物珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 100,
+    "name": "破龍・射法珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 101,
+    "name": "破龍・初弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 102,
+    "name": "破龍・積弾珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 103,
+    "name": "破龍・集中珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 104,
+    "name": "破龍・昂揚珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 105,
+    "name": "破龍・KO珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 106,
+    "name": "破龍・速変珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 107,
+    "name": "破龍・鉄壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 108,
+    "name": "破龍・強壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 109,
+    "name": "毒珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 110,
+    "name": "毒珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 111,
+    "name": "毒珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 112,
+    "name": "麻痺珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 113,
+    "name": "麻痺珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 114,
+    "name": "麻痺珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 115,
+    "name": "睡眠珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 116,
+    "name": "睡眠珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 117,
+    "name": "睡眠珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 118,
+    "name": "爆破珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 119,
+    "name": "爆破珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 120,
+    "name": "爆破珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 121,
+    "name": "属会珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 122,
+    "name": "属会珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 123,
+    "name": "属会珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 124,
+    "name": "属会・火炎珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 125,
+    "name": "属会・流水珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 126,
+    "name": "属会・氷結珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 127,
+    "name": "属会・雷光珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 128,
+    "name": "属会・破龍珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 129,
+    "name": "属会・匠珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 130,
+    "name": "属会・射法珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 131,
+    "name": "属会・KO珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 132,
+    "name": "属会・鉄壁珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 133,
+    "name": "特会珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 134,
+    "name": "特会珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 135,
+    "name": "特会珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 136,
+    "name": "特会・匠珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 137,
+    "name": "特会・射法珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 138,
+    "name": "特会・KO珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 139,
+    "name": "特会・鉄壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 140,
+    "name": "溜幅珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 141,
+    "name": "溜幅珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 142,
+    "name": "溜幅珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 143,
+    "name": "溜幅・匠珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 144,
+    "name": "溜幅・KO珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 145,
+    "name": "匠珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 146,
+    "name": "匠珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 147,
+    "name": "匠珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 148,
+    "name": "業物珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 149,
+    "name": "業物珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 150,
+    "name": "業物珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 151,
+    "name": "業物・火炎珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 152,
+    "name": "業物・流水珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 153,
+    "name": "業物・氷結珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 154,
+    "name": "業物・雷光珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 155,
+    "name": "業物・破龍珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 156,
+    "name": "業物・匠珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 157,
+    "name": "業物・KO珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 158,
+    "name": "業物・鉄壁珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 159,
+    "name": "剛刃珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 160,
+    "name": "剛刃珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 161,
+    "name": "剛刃珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 162,
+    "name": "心眼珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 163,
+    "name": "心眼珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 164,
+    "name": "心眼珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 165,
+    "name": "鈍器珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 166,
+    "name": "鈍器珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 167,
+    "name": "鈍器珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 168,
+    "name": "達芸珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 169,
+    "name": "強弾珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 170,
+    "name": "貫通珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 171,
+    "name": "散弾珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 172,
+    "name": "射法珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 173,
+    "name": "射法珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 174,
+    "name": "射法珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 175,
+    "name": "速射珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 176,
+    "name": "初弾珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 177,
+    "name": "初弾珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 178,
+    "name": "初弾珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 179,
+    "name": "初弾・火炎珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 180,
+    "name": "初弾・流水珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 181,
+    "name": "初弾・氷結珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 182,
+    "name": "初弾・雷光珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 183,
+    "name": "初弾・破龍珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 184,
+    "name": "初弾・射法珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 185,
+    "name": "初弾・鉄壁珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 186,
+    "name": "積弾珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 187,
+    "name": "積弾珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 188,
+    "name": "積弾珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 189,
+    "name": "積弾・火炎珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 190,
+    "name": "積弾・流水珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 191,
+    "name": "積弾・氷結珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 192,
+    "name": "積弾・雷光珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 193,
+    "name": "積弾・破龍珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 194,
+    "name": "積弾・射法珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 195,
+    "name": "積弾・鉄壁珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 196,
+    "name": "特射珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 197,
+    "name": "特射珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 198,
+    "name": "毒瓶珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 199,
+    "name": "痺瓶珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 200,
+    "name": "眠瓶珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 201,
+    "name": "爆瓶珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 202,
+    "name": "疲瓶珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 203,
+    "name": "防御珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 204,
+    "name": "加護珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 205,
+    "name": "耐火珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 206,
+    "name": "耐水珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 207,
+    "name": "耐氷珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 208,
+    "name": "耐雷珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 209,
+    "name": "耐龍珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 210,
+    "name": "耐毒珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 211,
+    "name": "耐麻珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 212,
+    "name": "耐眠珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 213,
+    "name": "耐防珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 214,
+    "name": "耐絶珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 215,
+    "name": "耐裂珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 216,
+    "name": "耐拘珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 217,
+    "name": "耐爆珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 218,
+    "name": "耐臭珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 219,
+    "name": "適応珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 220,
+    "name": "治癒珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 221,
+    "name": "早復珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 222,
+    "name": "環境珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 223,
+    "name": "体術珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 224,
+    "name": "早気珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 225,
+    "name": "強走珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 226,
+    "name": "無食珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 227,
+    "name": "挑戦珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 228,
+    "name": "全開珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 229,
+    "name": "底力珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 230,
+    "name": "連撃珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 231,
+    "name": "攻勢珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 232,
+    "name": "刺撃珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 233,
+    "name": "集中珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 234,
+    "name": "集中珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 235,
+    "name": "集中珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 236,
+    "name": "集中・火炎珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 237,
+    "name": "集中・流水珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 238,
+    "name": "集中・氷結珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 239,
+    "name": "集中・雷光珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 240,
+    "name": "集中・破龍珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 241,
+    "name": "集中・匠珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 242,
+    "name": "集中・射法珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 243,
+    "name": "集中・KO珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 244,
+    "name": "昂揚珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 245,
+    "name": "昂揚珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 246,
+    "name": "昂揚珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 247,
+    "name": "昂揚・火炎珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 248,
+    "name": "昂揚・流水珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 249,
+    "name": "昂揚・氷結珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 250,
+    "name": "昂揚・雷光珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 251,
+    "name": "昂揚・破龍珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 252,
+    "name": "昂揚・匠珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 253,
+    "name": "抜打珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 254,
+    "name": "抜打珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 255,
+    "name": "抜打珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 256,
+    "name": "抜打・匠珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 257,
+    "name": "抜打・KO珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 258,
+    "name": "抜打・鉄壁珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 259,
+    "name": "KO珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 260,
+    "name": "KO珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 261,
+    "name": "KO珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 262,
+    "name": "奪気珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 263,
+    "name": "奪気珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 264,
+    "name": "奪気珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 265,
+    "name": "砲術珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 266,
+    "name": "砲術珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 267,
+    "name": "砲術珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 268,
+    "name": "速変珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 269,
+    "name": "速変珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 270,
+    "name": "速変珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 271,
+    "name": "速変・火炎珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 272,
+    "name": "速変・流水珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 273,
+    "name": "速変・氷結珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 274,
+    "name": "速変・雷光珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 275,
+    "name": "速変・破龍珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 276,
+    "name": "速変・匠珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 277,
+    "name": "速変・KO珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 278,
+    "name": "速変・鉄壁珠",
+    "slot": 3,
+    "rarity": 7
+  },
+  {
+    "id": 279,
+    "name": "重撃珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 280,
+    "name": "転福珠",
+    "slot": 2,
+    "rarity": 7
+  },
+  {
+    "id": 281,
+    "name": "抗狂珠",
+    "slot": 1,
+    "rarity": 5
+  },
+  {
+    "id": 282,
+    "name": "急襲珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 283,
+    "name": "鼓笛珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 284,
+    "name": "鼓笛・攻撃珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 285,
+    "name": "鼓笛・達人珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 286,
+    "name": "鼓笛・抜刀珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 287,
+    "name": "鼓笛・匠珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 288,
+    "name": "鼓笛・KO珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 289,
+    "name": "溜打珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 290,
+    "name": "溜打・攻撃珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 291,
+    "name": "溜打・達人珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 292,
+    "name": "溜打・抜刀珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 293,
+    "name": "溜打・匠珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 294,
+    "name": "溜打・KO珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 295,
+    "name": "飛燕珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 296,
+    "name": "飛燕・攻撃珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 297,
+    "name": "飛燕・達人珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 298,
+    "name": "飛燕・抜刀珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 299,
+    "name": "飛燕・匠珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 300,
+    "name": "研鑽珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 301,
+    "name": "強毒・鉄壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 302,
+    "name": "強毒・KO珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 303,
+    "name": "強毒・射法珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 304,
+    "name": "強毒・匠珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 305,
+    "name": "強毒・抜刀珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 306,
+    "name": "強毒・達人珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 307,
+    "name": "強毒・攻撃珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 308,
+    "name": "強毒珠",
+    "slot": 2,
+    "rarity": 5
+  },
+  {
+    "id": 309,
+    "name": "鉄壁珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 310,
+    "name": "鉄壁珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 311,
+    "name": "鉄壁珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 312,
+    "name": "回避珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 313,
+    "name": "跳躍珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 314,
+    "name": "防音珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 315,
+    "name": "強壁珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 316,
+    "name": "強壁珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 317,
+    "name": "強壁珠Ⅲ",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 318,
+    "name": "強壁・火炎珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 319,
+    "name": "強壁・流水珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 320,
+    "name": "強壁・氷結珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 321,
+    "name": "強壁・雷光珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 322,
+    "name": "強壁・破龍珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 323,
+    "name": "強壁・匠珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 324,
+    "name": "強壁・鉄壁珠",
+    "slot": 3,
+    "rarity": 6
+  },
+  {
+    "id": 325,
+    "name": "速納珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 326,
+    "name": "防風珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 327,
+    "name": "耐震珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 328,
+    "name": "耐衝珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 329,
+    "name": "威嚇珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 330,
+    "name": "早食珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 331,
+    "name": "増弾珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 332,
+    "name": "増弾珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 333,
+    "name": "増弾・攻撃珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 334,
+    "name": "増弾・達人珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 335,
+    "name": "増弾・抜刀珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 336,
+    "name": "増弾・匠珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 337,
+    "name": "増弾・鉄壁珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 338,
+    "name": "緩衝珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 339,
+    "name": "飛込珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 340,
+    "name": "強跳珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 341,
+    "name": "友愛珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 342,
+    "name": "整備珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 343,
+    "name": "爆師珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 344,
+    "name": "茸好珠",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 345,
+    "name": "持続珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 346,
+    "name": "節食珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 347,
+    "name": "研磨珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 348,
+    "name": "研磨珠Ⅱ",
+    "slot": 2,
+    "rarity": 4
+  },
+  {
+    "id": 349,
+    "name": "研磨・攻撃珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 350,
+    "name": "研磨・達人珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 351,
+    "name": "研磨・抜刀珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 352,
+    "name": "研磨・匠珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 353,
+    "name": "研磨・KO珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 354,
+    "name": "研磨・鉄壁珠",
+    "slot": 3,
+    "rarity": 5
+  },
+  {
+    "id": 355,
+    "name": "閃光珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 356,
+    "name": "植学珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 357,
+    "name": "地学珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 358,
+    "name": "標本珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 359,
+    "name": "沼渡珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 360,
+    "name": "狩人珠",
+    "slot": 1,
+    "rarity": 3
+  },
+  {
+    "id": 361,
+    "name": "登壁珠",
+    "slot": 1,
+    "rarity": 3
+  }
+]
